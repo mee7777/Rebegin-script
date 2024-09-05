@@ -10,7 +10,7 @@ public class Monster : MonoBehaviour
     public float detectionRange = 5f;           // 플레이어를 감지 범위
     public float attackRange = 1f;              // 공격 범위
     public float patrolDistance = 10f;          // 몬스터가 순찰할 구간의 길이
-    public float AttackCoolTime = 0.5f;
+    public float AttackCoolTime = 1f;
     public int AttackDmg = 1;
 
     private float nextDirectionChangeTime = 0f;

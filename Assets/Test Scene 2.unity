@@ -211,7 +211,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8.050049, y: -2.8399658}
+  m_AnchoredPosition: {x: 0, y: -3}
   m_SizeDelta: {x: 1, y: 2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!70 &6383979
@@ -567,7 +567,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.04, y: -4.5, z: 0}
-  m_LocalScale: {x: 18.763, y: 1, z: 1}
+  m_LocalScale: {x: 50, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1067,7 +1067,7 @@ Transform:
   m_GameObject: {fileID: 1596689951}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.29, y: -2.74, z: 0}
+  m_LocalPosition: {x: -3.29, y: -3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1090,7 +1090,7 @@ MonoBehaviour:
   detectionRange: 5
   attackRange: 1
   patrolDistance: 10
-  AttackCoolTime: 0.5
+  AttackCoolTime: 1
   AttackDmg: 1
 --- !u!70 &1596689957
 CapsuleCollider2D:
