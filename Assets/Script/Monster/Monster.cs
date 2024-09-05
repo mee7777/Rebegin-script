@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -18,6 +19,7 @@ public class Monster : MonoBehaviour
 
     private Vector2 startingPosition;
     private bool movingRight = true;
+    bool isAT;
     private Transform player;
     private Rigidbody2D rb;
     private float curTime;
@@ -29,6 +31,8 @@ public class Monster : MonoBehaviour
         startingPosition = transform.position;
         player = GameObject.FindGameObjectWithTag("Player").transform;
         triggername = "atk";
+        curTime = AttackCoolTime;
+
     }
 
     void Update()
@@ -47,8 +51,19 @@ public class Monster : MonoBehaviour
         {
             Patrol();
         }
-        curTime -= Time.deltaTime;
-
+        if(isAT == true)
+        {
+            if (curTime > 0)
+            {
+                curTime -= Time.deltaTime;
+                if (curTime < 0)
+                {
+                    curTime = AttackCoolTime;
+                    Debug.Log("ATTTT");
+                }
+            }
+        }
+        
     }
 
     void FaceTarget()
@@ -117,15 +132,25 @@ public class Monster : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D col)
     {
+        Debug.Log("STAY MAIN");
+
         if (col.CompareTag("Player"))
-        {
+        {                
+            isAT = true;
             Player playerHealth = col.GetComponent<Player>();
             if (player != null && curTime <= 0)
             {
                 playerHealth.TakeDamage(AttackDmg); // 피해량 조정
                 Debug.Log("Player Health After Hit: " + playerHealth.GetCurrentHealth());
-                curTime = AttackCoolTime;
+               // curTime = AttackCoolTime;
+               // Debug.Log("STAY");
             }
         }
+    }
+
+    private void OnTriggerExit2D()
+    {
+        isAT = false;
+
     }
 }
