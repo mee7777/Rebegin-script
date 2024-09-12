@@ -24,6 +24,10 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb;
 
     public bool isJump = false;
+    public int maxJumpCount = 2;
+    public int JumpCount = 0;
+
+    Vector3 moveVec;
 
     void Start()
     {
@@ -45,8 +49,15 @@ public class Player : MonoBehaviour
         Debug.Log("점프");
         if (!isJump)
         {
-            isJump = true;
-            rigid.AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse);
+            if (JumpCount < maxJumpCount)
+            {
+                JumpCount++;
+                rigid.AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse);
+            }
+            if (JumpCount == maxJumpCount)
+            {
+                isJump = true;
+            }
         }
 
     }
@@ -55,7 +66,8 @@ public class Player : MonoBehaviour
     {
         if (other.gameObject.name.Equals("Floor"))
         {
-            isJump = false;
+            JumpCount = 0;
+            isJump = false;        
         }
     }
 
@@ -100,22 +112,12 @@ public class Player : MonoBehaviour
     void FixedUpdate()
     {
         // 스틱이 향해있는 방향을 저장해준다.
-        Vector3 dir = new Vector3(js.Horizontal, js.Vertical, 0);
+        moveVec = new Vector3(js.Horizontal, 0, 0).normalized;
 
-        // Vector의 방향은 유지하지만 크기를 1로 줄인다. 길이가 정규화 되지 않을시 0으로 설정.
-        dir.Normalize();
+        moveVec = moveVec * speed;
 
         // 오브젝트의 위치를 dir 방향으로 이동시킨다.
-        transform.position += dir * speed * Time.deltaTime;
-
-        if (js.Horizontal > 0)
-        {
-            transform.localScale = new Vector3(1, 1, 0);
-        }
-        else if (js.Horizontal < 0)
-        {
-            transform.localScale = new Vector3(-1, 1, 0);
-        }
+        rigid.velocity = new Vector3(moveVec.x, rigid.velocity.y, 0);
     }
 
     public void TakeDamage(int damage)
