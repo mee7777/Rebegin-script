@@ -24,6 +24,8 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb;
 
     public bool isJump = false;
+    public int maxJumpCount = 2;
+    public int JumpCount = 0;
 
     Vector3 moveVec;
 
@@ -47,8 +49,15 @@ public class Player : MonoBehaviour
         Debug.Log("มกวม");
         if (!isJump)
         {
-            isJump = true;
-            rigid.AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse);
+            if (JumpCount < maxJumpCount)
+            {
+                JumpCount++;
+                rigid.AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse);
+            }
+            if (JumpCount == maxJumpCount)
+            {
+                isJump = true;
+            }
         }
 
     }
@@ -57,7 +66,8 @@ public class Player : MonoBehaviour
     {
         if (other.gameObject.name.Equals("Floor"))
         {
-            isJump = false;
+            JumpCount = 0;
+            isJump = false;        
         }
     }
 
