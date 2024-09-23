@@ -7,9 +7,10 @@ public class UpDownPlatform : MonoBehaviour
     public float moveTime = 2f;  // 위아래 이동 시간
     public float smoothTime = 0.5f;  // 방향 전환 시 부드럽게 전환하는 시간
     public float stopDuration = 1f;  // 멈추는 시간 (1초)
+    public bool direction = true;  // 이동 방향 (true = 위로, false = 아래로)
 
     private Rigidbody2D rb2d;  // 발판의 Rigidbody2D
-    private bool movingUp = true;  // 현재 위로 이동 중인지 여부
+    private bool movingUp;  // 현재 위로 이동 중인지 여부
     private float timer = 0f;  // 경과 시간
     private Vector2 velocity = Vector2.zero;  // 속도 저장용
     private bool isStopped = false;  // 발판이 멈추었는지 여부
@@ -18,6 +19,13 @@ public class UpDownPlatform : MonoBehaviour
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();  // Rigidbody2D 가져오기
+        SetInitialDirection();  // 처음 방향 설정
+    }
+
+    void SetInitialDirection()
+    {
+        // direction 값을 바탕으로 초기 방향 설정
+        movingUp = direction;
     }
 
     void FixedUpdate()
@@ -37,7 +45,7 @@ public class UpDownPlatform : MonoBehaviour
 
         timer += Time.fixedDeltaTime;
 
-        // time 함수 값만큼 경과하면 방향 전환
+        // moveTime 경과 시 방향 전환
         if (timer > moveTime)
         {
             movingUp = !movingUp;  // 방향 전환
@@ -72,6 +80,7 @@ public class UpDownPlatform : MonoBehaviour
         rb2d.MovePosition(newPosition);
     }
 }
+
 
 
 

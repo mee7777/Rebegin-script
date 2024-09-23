@@ -6,6 +6,8 @@ TagManager:
   tags:
   - New tag
   - player
+  - Floor
+  - Monster
   layers:
   - Default
   - TransparentFX
