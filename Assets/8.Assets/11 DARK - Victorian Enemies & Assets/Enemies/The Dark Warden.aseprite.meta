@@ -1172,6 +1172,7 @@ ScriptedImporter:
     cells:
     - name: The Dark Warden_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 66
         y: 80
@@ -1180,6 +1181,7 @@ ScriptedImporter:
       spriteId: 2132b1af66220b74d83e40ff2af2fcb9
     - name: The Dark Warden_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 66
         y: 80
@@ -1188,6 +1190,7 @@ ScriptedImporter:
       spriteId: 8687693114c422147b40b71a6bfb08d0
     - name: The Dark Warden_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 66
         y: 80
@@ -1196,6 +1199,7 @@ ScriptedImporter:
       spriteId: 6f1c1b00868523a4e96074922eb101eb
     - name: The Dark Warden_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 66
         y: 80
@@ -1204,6 +1208,7 @@ ScriptedImporter:
       spriteId: 1b0f5e13d59472d4080490a7cdfa7898
     - name: The Dark Warden_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 66
         y: 80
@@ -1212,6 +1217,7 @@ ScriptedImporter:
       spriteId: 75a1a3375d7354845be5ae06d56e79aa
     - name: The Dark Warden_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 66
         y: 80
@@ -1220,6 +1226,7 @@ ScriptedImporter:
       spriteId: 616a4e040059ac44c804f3bab491bdcb
     - name: The Dark Warden_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 66
         y: 80
@@ -1228,6 +1235,7 @@ ScriptedImporter:
       spriteId: 6c9f46a4299f03a4c9179fa81dc02607
     - name: The Dark Warden_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 66
         y: 80
@@ -1236,6 +1244,7 @@ ScriptedImporter:
       spriteId: 54c5f4bc5f3f9984fa37a7bc13990cc2
     - name: The Dark Warden_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 66
         y: 80
@@ -1244,6 +1253,7 @@ ScriptedImporter:
       spriteId: 946a4adac91074842a02bd65b3637a37
     - name: The Dark Warden_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 66
         y: 80
@@ -1252,6 +1262,7 @@ ScriptedImporter:
       spriteId: 3b740d01b1246914fb6d520821617f15
     - name: The Dark Warden_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 66
         y: 80
@@ -1260,6 +1271,7 @@ ScriptedImporter:
       spriteId: 911fe8af890c3f64ba5dae9dfee62129
     - name: The Dark Warden_Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 66
         y: 80
@@ -1268,6 +1280,7 @@ ScriptedImporter:
       spriteId: 7ad21276934fa044e9b443925bae8d66
     - name: The Dark Warden_Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 66
         y: 80
@@ -1276,6 +1289,7 @@ ScriptedImporter:
       spriteId: 69513ffc9ba0b1f408306e4aafe098d9
     - name: The Dark Warden_Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 65
         y: 80
@@ -1284,6 +1298,7 @@ ScriptedImporter:
       spriteId: f3bc2167131a2ce4ebf5e45a1a70bf3e
     - name: The Dark Warden_Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 65
         y: 80
@@ -1292,6 +1307,7 @@ ScriptedImporter:
       spriteId: 0d0df597f72a08541bca32e5863ced7e
     - name: The Dark Warden_Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 66
         y: 80
@@ -1300,6 +1316,7 @@ ScriptedImporter:
       spriteId: 3b18268713e9e72459c114669e104a10
     - name: The Dark Warden_Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 64
         y: 80
@@ -1308,6 +1325,7 @@ ScriptedImporter:
       spriteId: 1620864815f915e40aa51c37b2f38ce9
     - name: The Dark Warden_Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 64
         y: 80
@@ -1316,6 +1334,7 @@ ScriptedImporter:
       spriteId: 3c2cfce336de62c41a5eaa9f93d69d38
     - name: The Dark Warden_Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: 64
         y: 80
@@ -1324,6 +1343,7 @@ ScriptedImporter:
       spriteId: dafa9b1fafbbc2645839a52baa24fd18
     - name: The Dark Warden_Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: 64
         y: 80
@@ -1332,6 +1352,7 @@ ScriptedImporter:
       spriteId: 00e90be64e8c56d4c92fca2d56dae8f1
     - name: The Dark Warden_Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: 65
         y: 80
@@ -1340,6 +1361,7 @@ ScriptedImporter:
       spriteId: 2e8a124557916a24d80eae37701e9e6b
     - name: The Dark Warden_Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: 66
         y: 80
@@ -1348,6 +1370,7 @@ ScriptedImporter:
       spriteId: 22504c9e7595d204496b58f86db00b88
     - name: The Dark Warden_Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: 64
         y: 80
@@ -1356,6 +1379,7 @@ ScriptedImporter:
       spriteId: f7f8a8d9883343b4a9461439cf06a051
     - name: The Dark Warden_Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: 64
         y: 80
@@ -1364,6 +1388,7 @@ ScriptedImporter:
       spriteId: b1a529edb8e2fc740a7a825e69c252cc
     - name: The Dark Warden_Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: 65
         y: 80
@@ -1372,6 +1397,7 @@ ScriptedImporter:
       spriteId: 9c4a69fd84bb9be40b40e69ddf3a237e
     - name: The Dark Warden_Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: 66
         y: 80
@@ -1380,6 +1406,7 @@ ScriptedImporter:
       spriteId: b2fd1830c0b3eab408302e850725d9e8
     - name: The Dark Warden_Frame_35
       frameIndex: 35
+      additiveSortOrder: 0
       cellRect:
         x: 56
         y: 80
@@ -1388,6 +1415,7 @@ ScriptedImporter:
       spriteId: f59e089a1e64abe47b0ade77ade60d44
     - name: The Dark Warden_Frame_36
       frameIndex: 36
+      additiveSortOrder: 0
       cellRect:
         x: 57
         y: 80
@@ -1396,6 +1424,7 @@ ScriptedImporter:
       spriteId: 1f2333375cd8fcc4f8b263bd2365bbcb
     - name: The Dark Warden_Frame_37
       frameIndex: 37
+      additiveSortOrder: 0
       cellRect:
         x: 60
         y: 80
@@ -1404,6 +1433,7 @@ ScriptedImporter:
       spriteId: 8ee93f6dfc4957c4182b07a7259b6381
     - name: The Dark Warden_Frame_38
       frameIndex: 38
+      additiveSortOrder: 0
       cellRect:
         x: 65
         y: 80
@@ -1412,6 +1442,7 @@ ScriptedImporter:
       spriteId: 71c4e3692842b1c4d8d339fcf56f31bb
     - name: The Dark Warden_Frame_39
       frameIndex: 39
+      additiveSortOrder: 0
       cellRect:
         x: 66
         y: 80
@@ -1420,6 +1451,7 @@ ScriptedImporter:
       spriteId: 137c25765f326ca41829ccc239590a1b
     - name: The Dark Warden_Frame_40
       frameIndex: 40
+      additiveSortOrder: 0
       cellRect:
         x: 66
         y: 80
@@ -1428,6 +1460,7 @@ ScriptedImporter:
       spriteId: 4e0c21a5fedce334eb2c54547977f400
     - name: The Dark Warden_Frame_41
       frameIndex: 41
+      additiveSortOrder: 0
       cellRect:
         x: 65
         y: 80
@@ -1436,6 +1469,7 @@ ScriptedImporter:
       spriteId: 40a18d9bb046aa04a80d9c9b5fdc1e60
     - name: The Dark Warden_Frame_42
       frameIndex: 42
+      additiveSortOrder: 0
       cellRect:
         x: 65
         y: 80
@@ -1444,6 +1478,7 @@ ScriptedImporter:
       spriteId: 2598af5daa1379440902c51bf5c5ec48
     - name: The Dark Warden_Frame_43
       frameIndex: 43
+      additiveSortOrder: 0
       cellRect:
         x: 58
         y: 82
@@ -1452,6 +1487,7 @@ ScriptedImporter:
       spriteId: f396da2a914e2ef48a8ba1653161fa50
     - name: The Dark Warden_Frame_44
       frameIndex: 44
+      additiveSortOrder: 0
       cellRect:
         x: 56
         y: 81
@@ -1460,6 +1496,7 @@ ScriptedImporter:
       spriteId: 7396f96973fe7f24e83ea8745b4bc8fe
     - name: The Dark Warden_Frame_45
       frameIndex: 45
+      additiveSortOrder: 0
       cellRect:
         x: 53
         y: 81
@@ -1468,6 +1505,7 @@ ScriptedImporter:
       spriteId: 0ec3bbe9a97c8c24985048a22332af2d
     - name: The Dark Warden_Frame_46
       frameIndex: 46
+      additiveSortOrder: 0
       cellRect:
         x: 52
         y: 81
@@ -1476,6 +1514,7 @@ ScriptedImporter:
       spriteId: bccbdb13a43c2314d8e986ee49c94e87
     - name: The Dark Warden_Frame_47
       frameIndex: 47
+      additiveSortOrder: 0
       cellRect:
         x: 51
         y: 81
@@ -1484,6 +1523,7 @@ ScriptedImporter:
       spriteId: 642c3944a13b5e7478f7645f3e1723d4
     - name: The Dark Warden_Frame_48
       frameIndex: 48
+      additiveSortOrder: 0
       cellRect:
         x: 50
         y: 81
@@ -1492,6 +1532,7 @@ ScriptedImporter:
       spriteId: b468f0cb0a7ef5841a0987bbb06f65ea
     - name: The Dark Warden_Frame_49
       frameIndex: 49
+      additiveSortOrder: 0
       cellRect:
         x: 50
         y: 84
@@ -1500,6 +1541,7 @@ ScriptedImporter:
       spriteId: 18d9a9f09c5786046abd2f53ac9f42bc
     - name: The Dark Warden_Frame_50
       frameIndex: 50
+      additiveSortOrder: 0
       cellRect:
         x: 49
         y: 84
@@ -1508,6 +1550,7 @@ ScriptedImporter:
       spriteId: 6f9d412e4224b874cae2e8ee16d8975b
     - name: The Dark Warden_Frame_51
       frameIndex: 51
+      additiveSortOrder: 0
       cellRect:
         x: 48
         y: 84
@@ -1516,6 +1559,7 @@ ScriptedImporter:
       spriteId: fa5cd0a249c0d3c46a482f74ebbd5926
     - name: The Dark Warden_Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: 66
         y: 80
@@ -1524,6 +1568,7 @@ ScriptedImporter:
       spriteId: 86ecbdd0de2bb274296b5b82f221dfcd
     - name: The Dark Warden_Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: 65
         y: 80
@@ -1532,6 +1577,7 @@ ScriptedImporter:
       spriteId: ea8b9841df6459843a055101aa5d491c
     - name: The Dark Warden_Frame_28
       frameIndex: 28
+      additiveSortOrder: 0
       cellRect:
         x: 66
         y: 80
@@ -1540,6 +1586,7 @@ ScriptedImporter:
       spriteId: 8f48a9041f666b947b9ae41eaaba9d09
     - name: The Dark Warden_Frame_29
       frameIndex: 29
+      additiveSortOrder: 0
       cellRect:
         x: 64
         y: 80
@@ -1548,6 +1595,7 @@ ScriptedImporter:
       spriteId: 96d511b4a96ba294fa58453544a20139
     - name: The Dark Warden_Frame_30
       frameIndex: 30
+      additiveSortOrder: 0
       cellRect:
         x: 64
         y: 80
@@ -1556,6 +1604,7 @@ ScriptedImporter:
       spriteId: 2c00a7d274e22f949a68ebb965c98580
     - name: The Dark Warden_Frame_31
       frameIndex: 31
+      additiveSortOrder: 0
       cellRect:
         x: 55
         y: 80
@@ -1564,6 +1613,7 @@ ScriptedImporter:
       spriteId: 1be41c514b1767a4faecae65faf430dc
     - name: The Dark Warden_Frame_32
       frameIndex: 32
+      additiveSortOrder: 0
       cellRect:
         x: 56
         y: 80
@@ -1572,6 +1622,7 @@ ScriptedImporter:
       spriteId: e13255ff9a291c146a5f8087245b107e
     - name: The Dark Warden_Frame_33
       frameIndex: 33
+      additiveSortOrder: 0
       cellRect:
         x: 56
         y: 80
@@ -1580,6 +1631,7 @@ ScriptedImporter:
       spriteId: 359ed62d4604c174e940f789ddbe31c6
     - name: The Dark Warden_Frame_34
       frameIndex: 34
+      additiveSortOrder: 0
       cellRect:
         x: 56
         y: 80
