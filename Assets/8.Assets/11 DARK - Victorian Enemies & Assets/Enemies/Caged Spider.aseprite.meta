@@ -1,0 +1,1119 @@
+fileFormatVersion: 2
+guid: 16c6be884a170514b82c3053d5ed53b2
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Caged Spider_Frame_0
+    originalName: 
+    pivot: {x: 0.45454547, y: -1.4545455}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 187
+      width: 11
+      height: 11
+    spriteID: e9aa8a0f74014264eaa1a3165df696bc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 47, y: 187}
+  - name: Caged Spider_Frame_1
+    originalName: 
+    pivot: {x: 0.45454547, y: -1.4545455}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 206
+      width: 11
+      height: 11
+    spriteID: b4203f4a74352d84fa6d6d893cdebf2a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 47, y: 206}
+  - name: Caged Spider_Frame_2
+    originalName: 
+    pivot: {x: 0.45454547, y: -1.4545455}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 225
+      width: 11
+      height: 11
+    spriteID: eb0d8be7c906a9444950e65b76ba1f93
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 47, y: 225}
+  - name: Caged Spider_Frame_3
+    originalName: 
+    pivot: {x: 0.45454547, y: -1.4545455}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 51
+      width: 11
+      height: 11
+    spriteID: 817bdcc7f56d3bd4bbec63803f8ccb8e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 51}
+  - name: Caged Spider_Frame_4
+    originalName: 
+    pivot: {x: 0.4166667, y: -1.4545455}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 130
+      width: 12
+      height: 11
+    spriteID: c068d496ad146a4418d13eb4e0abe9b7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 47, y: 130}
+  - name: Caged Spider_Frame_5
+    originalName: 
+    pivot: {x: 0.4166667, y: -1.4545455}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 149
+      width: 12
+      height: 11
+    spriteID: c71fe5fa926ead541b983a00476dc71c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 47, y: 149}
+  - name: Caged Spider_Frame_6
+    originalName: 
+    pivot: {x: 0.3846154, y: -1.4545455}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 111
+      width: 13
+      height: 11
+    spriteID: d0bf1c2cffc0ad94ea97ae0fb305379e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 47, y: 111}
+  - name: Caged Spider_Frame_7
+    originalName: 
+    pivot: {x: 0.45454547, y: -1.4545455}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 70
+      width: 11
+      height: 11
+    spriteID: 9d0cb133d7d8f1843a11dd08d869ce11
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 70}
+  - name: Caged Spider_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: -1.3333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 91
+      width: 12
+      height: 12
+    spriteID: b8ef543ffd73f5e458bdcab05d9ee9c4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 47, y: 91}
+  - name: Caged Spider_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: -1.2307693}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 224
+      width: 12
+      height: 13
+    spriteID: 4c67f4b975ec1d44da86d39362d23fa9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 25, y: 224}
+  - name: Caged Spider_Frame_10
+    originalName: 
+    pivot: {x: 0.53846157, y: -1.3333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 71
+      width: 13
+      height: 12
+    spriteID: 9ce836c872821e544a632dc0a4b80dc9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 47, y: 71}
+  - name: Caged Spider_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: -1.4545455}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 168
+      width: 12
+      height: 11
+    spriteID: 8a79246fd3152304db6866ae14aa4cb3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 47, y: 168}
+  - name: Caged Spider_Frame_12
+    originalName: 
+    pivot: {x: 0.53333336, y: -1.3333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 51
+      width: 15
+      height: 12
+    spriteID: a4e6871d24a19ba49ac1fa4f36d4e65f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 47, y: 51}
+  - name: Caged Spider_Frame_13
+    originalName: 
+    pivot: {x: 0.53846157, y: -1.2307693}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 225
+      width: 13
+      height: 13
+    spriteID: 197f129abfb3fe043a941fc4643a8029
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 225}
+  - name: Caged Spider_Frame_14
+    originalName: 
+    pivot: {x: 0.3846154, y: -1.1428572}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 203
+      width: 13
+      height: 14
+    spriteID: 4184f7066671e2e4e81b468276ed1c78
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 203}
+  - name: Caged Spider_Frame_15
+    originalName: 
+    pivot: {x: 0.35714287, y: -1.2307693}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 203
+      width: 14
+      height: 13
+    spriteID: 85996be8f10ee0d4a9e8b0b284685929
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 25, y: 203}
+  - name: Caged Spider_Frame_16
+    originalName: 
+    pivot: {x: 0.45454547, y: -1.4545455}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 89
+      width: 11
+      height: 11
+    spriteID: fd92d5fe66a0f284ca2cf692fe2aaa90
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 89}
+  - name: Caged Spider_Frame_17
+    originalName: 
+    pivot: {x: 0.4615385, y: -1.0666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 95
+      y: 4
+      width: 26
+      height: 15
+    spriteID: a06b862cde9ea6d44af369a150f43bf3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 95, y: 4}
+  - name: Caged Spider_Frame_18
+    originalName: 
+    pivot: {x: 0.45454547, y: -1.4545455}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 108
+      width: 11
+      height: 11
+    spriteID: 72e04bc0063e1f249869f9344ab2d34e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 108}
+  - name: Caged Spider_Frame_19
+    originalName: 
+    pivot: {x: 0.48387095, y: -0.9411765}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 57
+      width: 31
+      height: 17
+    spriteID: 173f6e54725fba248a2646802b1a14bc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 57}
+  - name: Caged Spider_Frame_20
+    originalName: 
+    pivot: {x: 0.4848485, y: -0.8888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 31
+      width: 33
+      height: 18
+    spriteID: 83456c64bfcb01541abda3b307bb5780
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 31}
+  - name: Caged Spider_Frame_21
+    originalName: 
+    pivot: {x: 0.4857143, y: -0.84210527}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 35
+      height: 19
+    spriteID: 15d12b63a9e4063428a369c50d78e0be
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Caged Spider_Frame_22
+    originalName: 
+    pivot: {x: 0.45454547, y: -1.4545455}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 127
+      width: 11
+      height: 11
+    spriteID: 86fb2c6c5eb8f4f459abf771c5e2846d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 127}
+  - name: Caged Spider_Frame_23
+    originalName: 
+    pivot: {x: 0.45454547, y: -1.4545455}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 146
+      width: 11
+      height: 11
+    spriteID: 85304bbf805745c44a688ecac7be6a75
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 146}
+  - name: Caged Spider_Frame_24
+    originalName: 
+    pivot: {x: 0.45454547, y: -1.4545455}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 165
+      width: 11
+      height: 11
+    spriteID: 59877bc9ab65b3e4da097baa2e97f81e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 165}
+  - name: Caged Spider_Frame_25
+    originalName: 
+    pivot: {x: 0.45454547, y: -1.4545455}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 184
+      width: 11
+      height: 11
+    spriteID: 8eacfad8460bfa448ba85dd3b950ee41
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 184}
+  - name: Caged Spider_Frame_26
+    originalName: 
+    pivot: {x: 0.48, y: -1.4545455}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 184
+      width: 25
+      height: 11
+    spriteID: fce7108fca8d3ab479c7e665904f6350
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 184}
+  - name: Caged Spider_Frame_27
+    originalName: 
+    pivot: {x: 0.48387095, y: -1.2307693}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 125
+      width: 31
+      height: 13
+    spriteID: 0f426c54b2d61d1459067cb311185a21
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 125}
+  - name: Caged Spider_Frame_28
+    originalName: 
+    pivot: {x: 0.45714286, y: -1.1428572}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 82
+      width: 35
+      height: 14
+    spriteID: 45de98a0f6330f549887cdb9c6cca5c1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 82}
+  - name: Caged Spider_Frame_29
+    originalName: 
+    pivot: {x: 0.4473684, y: -1.0666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 28
+      width: 38
+      height: 15
+    spriteID: 40822916148b561478378474f705e35c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 47, y: 28}
+  - name: Caged Spider_Frame_30
+    originalName: 
+    pivot: {x: 0.45000002, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 4
+      width: 40
+      height: 16
+    spriteID: 3d7d9ab94a94f094db14a34593e8626d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 47, y: 4}
+  - name: Caged Spider_Frame_31
+    originalName: 
+    pivot: {x: 0.2580645, y: -1.5384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 146
+      width: 31
+      height: 13
+    spriteID: 2fd57b8be9bf6694a9bc45af17473c46
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 146}
+  - name: Caged Spider_Frame_32
+    originalName: 
+    pivot: {x: 0.54285717, y: -1.7777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 167
+      width: 35
+      height: 9
+    spriteID: ac7bef60f2bae4947a9188f367fa42a0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 167}
+  - name: Caged Spider_Frame_33
+    originalName: 
+    pivot: {x: 0.27272728, y: -1.6153847}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 104
+      width: 33
+      height: 13
+    spriteID: 007e670e4a9a53a4c8eb403831b7955b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 104}
+  - name: Caged Spider_Frame_34
+    originalName: 
+    pivot: {x: -16, y: -20}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 184
+      width: 1
+      height: 1
+    spriteID: a1190db896a036f4ebeee679f493b2fb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 184}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1624013991
+    name: Caged Spider
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Caged Spider_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 27
+        y: 16
+        width: 11
+        height: 11
+      spriteId: e9aa8a0f74014264eaa1a3165df696bc
+    - name: Caged Spider_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 27
+        y: 16
+        width: 11
+        height: 11
+      spriteId: b4203f4a74352d84fa6d6d893cdebf2a
+    - name: Caged Spider_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 27
+        y: 16
+        width: 11
+        height: 11
+      spriteId: eb0d8be7c906a9444950e65b76ba1f93
+    - name: Caged Spider_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 27
+        y: 16
+        width: 11
+        height: 11
+      spriteId: 817bdcc7f56d3bd4bbec63803f8ccb8e
+    - name: Caged Spider_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 27
+        y: 16
+        width: 12
+        height: 11
+      spriteId: c068d496ad146a4418d13eb4e0abe9b7
+    - name: Caged Spider_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 27
+        y: 16
+        width: 12
+        height: 11
+      spriteId: c71fe5fa926ead541b983a00476dc71c
+    - name: Caged Spider_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 27
+        y: 16
+        width: 13
+        height: 11
+      spriteId: d0bf1c2cffc0ad94ea97ae0fb305379e
+    - name: Caged Spider_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 27
+        y: 16
+        width: 11
+        height: 11
+      spriteId: 9d0cb133d7d8f1843a11dd08d869ce11
+    - name: Caged Spider_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 26
+        y: 16
+        width: 12
+        height: 12
+      spriteId: b8ef543ffd73f5e458bdcab05d9ee9c4
+    - name: Caged Spider_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 26
+        y: 16
+        width: 12
+        height: 13
+      spriteId: 4c67f4b975ec1d44da86d39362d23fa9
+    - name: Caged Spider_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 25
+        y: 16
+        width: 13
+        height: 12
+      spriteId: 9ce836c872821e544a632dc0a4b80dc9
+    - name: Caged Spider_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 26
+        y: 16
+        width: 12
+        height: 11
+      spriteId: 8a79246fd3152304db6866ae14aa4cb3
+    - name: Caged Spider_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 24
+        y: 16
+        width: 15
+        height: 12
+      spriteId: a4e6871d24a19ba49ac1fa4f36d4e65f
+    - name: Caged Spider_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 25
+        y: 16
+        width: 13
+        height: 13
+      spriteId: 197f129abfb3fe043a941fc4643a8029
+    - name: Caged Spider_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 27
+        y: 16
+        width: 13
+        height: 14
+      spriteId: 4184f7066671e2e4e81b468276ed1c78
+    - name: Caged Spider_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 27
+        y: 16
+        width: 14
+        height: 13
+      spriteId: 85996be8f10ee0d4a9e8b0b284685929
+    - name: Caged Spider_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 27
+        y: 16
+        width: 11
+        height: 11
+      spriteId: fd92d5fe66a0f284ca2cf692fe2aaa90
+    - name: Caged Spider_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 20
+        y: 16
+        width: 26
+        height: 15
+      spriteId: a06b862cde9ea6d44af369a150f43bf3
+    - name: Caged Spider_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 27
+        y: 16
+        width: 11
+        height: 11
+      spriteId: 72e04bc0063e1f249869f9344ab2d34e
+    - name: Caged Spider_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 17
+        y: 16
+        width: 31
+        height: 17
+      spriteId: 173f6e54725fba248a2646802b1a14bc
+    - name: Caged Spider_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 16
+        y: 16
+        width: 33
+        height: 18
+      spriteId: 83456c64bfcb01541abda3b307bb5780
+    - name: Caged Spider_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 15
+        y: 16
+        width: 35
+        height: 19
+      spriteId: 15d12b63a9e4063428a369c50d78e0be
+    - name: Caged Spider_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 27
+        y: 16
+        width: 11
+        height: 11
+      spriteId: 86fb2c6c5eb8f4f459abf771c5e2846d
+    - name: Caged Spider_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 27
+        y: 16
+        width: 11
+        height: 11
+      spriteId: 85304bbf805745c44a688ecac7be6a75
+    - name: Caged Spider_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 27
+        y: 16
+        width: 11
+        height: 11
+      spriteId: 59877bc9ab65b3e4da097baa2e97f81e
+    - name: Caged Spider_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 27
+        y: 16
+        width: 11
+        height: 11
+      spriteId: 8eacfad8460bfa448ba85dd3b950ee41
+    - name: Caged Spider_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 20
+        y: 16
+        width: 25
+        height: 11
+      spriteId: fce7108fca8d3ab479c7e665904f6350
+    - name: Caged Spider_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 17
+        y: 16
+        width: 31
+        height: 13
+      spriteId: 0f426c54b2d61d1459067cb311185a21
+    - name: Caged Spider_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 16
+        y: 16
+        width: 35
+        height: 14
+      spriteId: 45de98a0f6330f549887cdb9c6cca5c1
+    - name: Caged Spider_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 15
+        y: 16
+        width: 38
+        height: 15
+      spriteId: 40822916148b561478378474f705e35c
+    - name: Caged Spider_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 14
+        y: 16
+        width: 40
+        height: 16
+      spriteId: 3d7d9ab94a94f094db14a34593e8626d
+    - name: Caged Spider_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 24
+        y: 20
+        width: 31
+        height: 13
+      spriteId: 2fd57b8be9bf6694a9bc45af17473c46
+    - name: Caged Spider_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 13
+        y: 16
+        width: 35
+        height: 9
+      spriteId: ac7bef60f2bae4947a9188f367fa42a0
+    - name: Caged Spider_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 23
+        y: 21
+        width: 33
+        height: 13
+      spriteId: 007e670e4a9a53a4c8eb403831b7955b
+    - name: Caged Spider_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 48
+        y: 20
+        width: 1
+        height: 1
+      spriteId: a1190db896a036f4ebeee679f493b2fb
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 64, y: 64}
