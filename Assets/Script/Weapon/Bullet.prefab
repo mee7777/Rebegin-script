@@ -134,8 +134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36132a437342992488c882925115ef78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Dmg: 10
-  bulletSpeed: 10
+  Dmg: 1
   Destroytime: 1
 --- !u!50 &8789873632706398111
 Rigidbody2D:
@@ -152,7 +151,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2

@@ -4,18 +4,11 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
+
     public int Dmg = 10;
-    private Vector2 moveDirection;
-    public float bulletSpeed = 10f;
     public float Destroytime = 1f;
 
     // 초기화 메서드
-    public void Initialize(Vector2 direction, float speed)
-    {
-        // 방향 벡터를 Normalize하여 단위 방향 벡터로 만듭니다.
-        moveDirection = direction.normalized;
-        bulletSpeed = speed;
-    }
 
     // 발사체 이동 및 파괴 코루틴
     IEnumerator MoveAndDestroy()
@@ -24,10 +17,6 @@ public class Bullet : MonoBehaviour
 
         while (Time.time - startTime < Destroytime)
         {
-            // 설정된 방향으로 이동
-            transform.Translate((Vector3)moveDirection * bulletSpeed * Time.deltaTime);
-            Debug.Log("Move Direction: " + moveDirection);
-            // 1 프레임 대기
             yield return null;
         }
 
@@ -41,11 +30,17 @@ public class Bullet : MonoBehaviour
         StartCoroutine(MoveAndDestroy());
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (other.gameObject.CompareTag("Monster"))
+        // 몬스터와 충돌했는지 확인
+        if (collision.CompareTag("Monster"))
         {
-            Destroy(gameObject);
+            Monster monster = collision.GetComponent<Monster>();
+            if (monster != null)
+            {
+                monster.TakeDamage(Dmg); // Monster의 TakeDamage 함수 호출
+            }
+            Destroy(gameObject); // Bullet 파괴
         }
     }
 }

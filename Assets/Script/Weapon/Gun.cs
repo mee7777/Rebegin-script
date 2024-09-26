@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Gun : MonoBehaviour
 {
-    GameObject PlayerObject;
+    public Transform player; // 플레이어의 Transform
 
     public GameObject Player;
     public GameObject WeaponPoint;
@@ -44,7 +44,6 @@ public class Gun : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-
             // ChangeWeapon 스크립트의 equip1을 true로 설정
             if (changeWeapon != null)
             {
@@ -59,9 +58,13 @@ public class Gun : MonoBehaviour
 
                 // 플레이어를 계속 따라가도록 하는 코드 추가
                 StartCoroutine(FollowPlayer(collision.transform));
+
+                // 현재 오브젝트를 플레이어의 자식으로 설정
+                transform.SetParent(collision.transform); // 오브젝트를 플레이어의 하위 오브젝트로 설정
             }
         }
     }
+
 
     // 플레이어를 계속 따라가는 함수
     private IEnumerator FollowPlayer(Transform playerTransform)
@@ -75,31 +78,34 @@ public class Gun : MonoBehaviour
             yield return null; // 한 프레임 대기
         }
     }
-    
+
     public void Shoot()
     {
-        if (CanAttack == false)
-        {
-            Debug.Log("CanAttack is false");
-        }
         Animator PlayerAnimator = Player.GetComponent<Animator>();
         if (CanAttack && Time.time >= nextShootTime)
         {
-            // groundcheck의 위치를 기준으로 총알의 이동 방향 결정
-            Vector2 bulletDirection = groundcheck.position.x < transform.position.x ? Vector2.right : Vector2.left;
+            // 플레이어와 총알 간의 거리 계산
+            Vector3 bulletPosition = player.position; // 총알이 발사될 위치는 플레이어의 위치
 
-            // 총알을 생성하고 방향을 설정
-            GameObject bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, Quaternion.identity);
-            Bullet bulletScript = bullet.GetComponent<Bullet>();
-            if (bulletScript != null)
+            // 총알 생성
+            GameObject bullet = Instantiate(bulletPrefab, bulletPosition, Quaternion.identity);
+
+            // 플레이어와 총알 간의 상대 위치 계산
+            Vector3 direction = bulletPosition - bullet.transform.position;
+
+            // 총알의 방향에 따라 발사 방향 설정
+            if (direction.x < 0)
             {
-                bulletScript.Initialize(bulletDirection, bulletSpeed);
+                // 왼쪽으로 발사
+                bullet.GetComponent<Rigidbody2D>().velocity = new Vector2(-10f, 0f); // 왼쪽으로 발사
             }
-            PlayerAnimator.SetTrigger("Attack");
-
-            // 다음 발사 가능 시간 업데이트
-            nextShootTime = Time.time + cooldownTime;
+            else
+            {
+                // 오른쪽으로 발사
+                bullet.GetComponent<Rigidbody2D>().velocity = new Vector2(10f, 0f); // 오른쪽으로 발사
+            }
         }
     }
+
 }
 
