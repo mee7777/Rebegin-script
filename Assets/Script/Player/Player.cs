@@ -64,7 +64,7 @@ public class Player : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.name.Equals("Floor"))
+        if (other.gameObject.tag.Equals("Floor"))
         {
             JumpCount = 0;
             isJump = false;        
