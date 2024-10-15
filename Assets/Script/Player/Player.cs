@@ -7,6 +7,7 @@ using UnityEngine.EventSystems;
 public class Player : MonoBehaviour
 {
     [SerializeField] private Rigidbody2D rigid;
+    public TextManager textmanager;
 
     public Transform attackPoint; // 공격 위치
     public float attackRange = 0.5f; // 공격 범위
@@ -20,8 +21,12 @@ public class Player : MonoBehaviour
     SpriteRenderer rend;
     public int maxHealth = 5;
     private int currentHealth;
+    // 여기 추가했습니다
+    int direction;
+    float detect_range = 2f;
 
     private Rigidbody2D rb;
+    GameObject scanObject;
 
     public bool isJump = false;
     public int maxJumpCount = 2;
@@ -46,20 +51,26 @@ public class Player : MonoBehaviour
 
     public void Jump()
     {
-        Debug.Log("점프");
-        if (!isJump)
+        if (scanObject != null)
         {
-            if (JumpCount < maxJumpCount)
-            {
-                JumpCount++;
-                rigid.AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse);
-            }
-            if (JumpCount == maxJumpCount)
-            {
-                isJump = true;
-            }
+            textmanager.Action(scanObject);
         }
-
+        else
+        {
+            Debug.Log("점프");
+            if (!isJump)
+            {
+                if (JumpCount < maxJumpCount)
+                {
+                    JumpCount++;
+                    rigid.AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse);
+                }
+                if (JumpCount == maxJumpCount)
+                {
+                    isJump = true;
+                }
+            }
+        }       
     }
 
     private void OnCollisionEnter2D(Collision2D other)
@@ -118,7 +129,29 @@ public class Player : MonoBehaviour
 
         // 오브젝트의 위치를 dir 방향으로 이동시킨다.
         rigid.velocity = new Vector3(moveVec.x, rigid.velocity.y, 0);
+
+        if(js.Horizontal < 0)
+        {
+            direction = -2;
+        }
+        if(js.Horizontal > 0)
+        {
+            direction = 2;
+        }
+        Debug.DrawRay(rigid.position, new Vector3(direction * detect_range, 0, 0), new Color(0, 0, 1));
+
+        RaycastHit2D rayHit_detect = Physics2D.Raycast(rigid.position, new Vector3(direction, 0, 0), detect_range, LayerMask.GetMask("Object"));
+        if (rayHit_detect.collider != null)
+        {
+            scanObject = rayHit_detect.collider.gameObject;
+
+        }
+        else
+        {
+            scanObject = null;
+        }
     }
+
 
     public void TakeDamage(int damage)
     {
