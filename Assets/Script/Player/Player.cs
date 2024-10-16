@@ -24,9 +24,12 @@ public class Player : MonoBehaviour
     // 여기 추가했습니다
     int direction;
     float detect_range = 2f;
+    public LayerMask objectLayer;
 
     private Rigidbody2D rb;
     GameObject scanObject;
+    GameObject detectedObject;
+    public GameObject textObject;
 
     public bool isJump = false;
     public int maxJumpCount = 2;
@@ -46,7 +49,17 @@ public class Player : MonoBehaviour
 
     void Update()
     {
+        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, detect_range, objectLayer);
 
+        if (textmanager.isAction == false)
+        {
+            if (hits.Length <= 0)
+            {
+                Debug.Log("텍스트출력취소");
+                textObject.SetActive(false);
+                textmanager.isAction = true;
+            }
+        }            
     }
 
     public void Jump()

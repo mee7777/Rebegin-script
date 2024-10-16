@@ -17,6 +17,7 @@ public class TextManager : MonoBehaviour
     // Update is called once per frame
     public void Action(GameObject scanObj)
     {
+        Debug.Log("텍스트출력");
         if (isAction)
         {
             isAction = false;
