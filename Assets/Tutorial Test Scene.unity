@@ -862,6 +862,10 @@ MonoBehaviour:
   js: {fileID: 1407377699}
   speed: 10
   maxHealth: 5
+  objectLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  textObject: {fileID: 2987997}
   isJump: 0
   maxJumpCount: 2
   JumpCount: 0
