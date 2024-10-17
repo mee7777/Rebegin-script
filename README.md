@@ -1,1 +1,2 @@
-# Rebegin-script
+# Rebegin
+넷마블 게임아카데미 리비긴 프로젝트
