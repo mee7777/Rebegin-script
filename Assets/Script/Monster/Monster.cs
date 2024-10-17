@@ -13,6 +13,8 @@ public class Monster : MonoBehaviour
     public float patrolDistance = 10f;          // 몬스터가 순찰할 구간의 길이
     public float AttackCoolTime = 1f;
     public int AttackDmg = 1;
+    public int Health = 1;
+    public EnemyManager enemyManager;
 
     private Vector2 startingPosition;
     private bool movingRight = true;
@@ -46,7 +48,8 @@ public class Monster : MonoBehaviour
             Patrol();
         }
         curTime -= Time.deltaTime;
-        
+        enemyManager = FindObjectOfType<EnemyManager>();
+
     }
 
     void FaceTarget()
@@ -125,5 +128,23 @@ public class Monster : MonoBehaviour
                 curTime = AttackCoolTime;
             }
         }
+    }
+
+    public void TakeDamage(int damage)
+    {
+        Health -= damage;  // 데미지만큼 체력 차감
+        Debug.Log("몬스터 체력: " + Health);
+
+        if (Health <= 0)
+        {
+            Die();
+        }
+    }
+
+    public void Die()
+    {
+        Destroy(gameObject);  // 적 오브젝트를 파괴
+        // 적이 죽을 때 EnemyManager의 deathCount를 증가시킵니다.
+        enemyManager.IncreaseDeathCount();
     }
 }

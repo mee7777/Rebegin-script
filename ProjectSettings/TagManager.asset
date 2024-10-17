@@ -6,11 +6,14 @@ TagManager:
   tags:
   - New tag
   - player
+  - Floor
+  - Monster
+  - Bullet
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Object
   - Water
   - UI
   - Ground
