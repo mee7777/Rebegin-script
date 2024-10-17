@@ -1092,7 +1092,6 @@ ScriptedImporter:
     cells:
     - name: boss door_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1101,7 +1100,6 @@ ScriptedImporter:
       spriteId: f1663fb88c845504694bf1c42efca804
     - name: boss door_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1110,7 +1108,6 @@ ScriptedImporter:
       spriteId: 177188eaff6f53e478e82af60b863b63
     - name: boss door_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1119,7 +1116,6 @@ ScriptedImporter:
       spriteId: d4387a8d380494647b2c75132d47acf6
     - name: boss door_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1128,7 +1124,6 @@ ScriptedImporter:
       spriteId: fc87db3431dd90e4bb85a7dbefa7a79e
     - name: boss door_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1137,7 +1132,6 @@ ScriptedImporter:
       spriteId: f37b67590595c3049954e95b403af12f
     - name: boss door_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1146,7 +1140,6 @@ ScriptedImporter:
       spriteId: 7919d2a69fff71248943b4efc3427bc1
     - name: boss door_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1155,7 +1148,6 @@ ScriptedImporter:
       spriteId: 3c5fcf0336f64d243994530fca885acb
     - name: boss door_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1164,7 +1156,6 @@ ScriptedImporter:
       spriteId: 3b6ed63ae65db284b962704e7618cb08
     - name: boss door_Frame_8
       frameIndex: 8
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1173,7 +1164,6 @@ ScriptedImporter:
       spriteId: 58bc040e2193e42499273caa70bed5ed
     - name: boss door_Frame_9
       frameIndex: 9
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1182,7 +1172,6 @@ ScriptedImporter:
       spriteId: aef66b2b7ab448b4ea0cf7ddc8cea678
     - name: boss door_Frame_10
       frameIndex: 10
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1191,7 +1180,6 @@ ScriptedImporter:
       spriteId: 9cc9137dc6cb71d4798e96bb9a75a676
     - name: boss door_Frame_11
       frameIndex: 11
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1200,7 +1188,6 @@ ScriptedImporter:
       spriteId: 88d645ba70c7cf04e9c3c859d4d370bf
     - name: boss door_Frame_12
       frameIndex: 12
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1209,7 +1196,6 @@ ScriptedImporter:
       spriteId: 12c9a9ca43a68c04fbd8c75873846305
     - name: boss door_Frame_13
       frameIndex: 13
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1218,7 +1204,6 @@ ScriptedImporter:
       spriteId: e7dda1e9654f05a469c81ea08d3def8c
     - name: boss door_Frame_14
       frameIndex: 14
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1227,7 +1212,6 @@ ScriptedImporter:
       spriteId: bbdf4d1a95cf45e4ea5cca9264c0c1d5
     - name: boss door_Frame_15
       frameIndex: 15
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1236,7 +1220,6 @@ ScriptedImporter:
       spriteId: bd8b207c5f8ba7d4fb1f92faff6c5046
     - name: boss door_Frame_16
       frameIndex: 16
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1245,7 +1228,6 @@ ScriptedImporter:
       spriteId: c9266a9318e94ef4f8d3b200a9fefd04
     - name: boss door_Frame_17
       frameIndex: 17
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1254,7 +1236,6 @@ ScriptedImporter:
       spriteId: daeec064784149e46945e3d82209a4ec
     - name: boss door_Frame_18
       frameIndex: 18
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1263,7 +1244,6 @@ ScriptedImporter:
       spriteId: d2d199aec3b2a3840beeccab0a5ecf41
     - name: boss door_Frame_19
       frameIndex: 19
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1272,7 +1252,6 @@ ScriptedImporter:
       spriteId: ac72eaf459822184687e139687fe56bf
     - name: boss door_Frame_20
       frameIndex: 20
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1281,7 +1260,6 @@ ScriptedImporter:
       spriteId: 21fd48953da83e04d8067a1bdabaf2ab
     - name: boss door_Frame_21
       frameIndex: 21
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1290,7 +1268,6 @@ ScriptedImporter:
       spriteId: 9f10a197374aa5540bab6b0a53aa6196
     - name: boss door_Frame_22
       frameIndex: 22
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1299,7 +1276,6 @@ ScriptedImporter:
       spriteId: cd47f806f03995e44a007f3e173d702b
     - name: boss door_Frame_23
       frameIndex: 23
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1308,7 +1284,6 @@ ScriptedImporter:
       spriteId: 8009e3d81baef9740bde1963af7c6efa
     - name: boss door_Frame_24
       frameIndex: 24
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1317,7 +1292,6 @@ ScriptedImporter:
       spriteId: 414cd1d5831bada4c954183584384619
     - name: boss door_Frame_25
       frameIndex: 25
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1326,7 +1300,6 @@ ScriptedImporter:
       spriteId: 2c8c02ca93430f948b281c472522cf26
     - name: boss door_Frame_26
       frameIndex: 26
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1335,7 +1308,6 @@ ScriptedImporter:
       spriteId: 98c421a9fb046cc4792c9b10e759d7c1
     - name: boss door_Frame_27
       frameIndex: 27
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1344,7 +1316,6 @@ ScriptedImporter:
       spriteId: 03851c238cced3c459d369d096ebd81b
     - name: boss door_Frame_28
       frameIndex: 28
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1353,7 +1324,6 @@ ScriptedImporter:
       spriteId: e55882d0887153743b97e778162e6e86
     - name: boss door_Frame_29
       frameIndex: 29
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1362,7 +1332,6 @@ ScriptedImporter:
       spriteId: 4855696ecd23aae4e87cfb68a16ca369
     - name: boss door_Frame_30
       frameIndex: 30
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1371,7 +1340,6 @@ ScriptedImporter:
       spriteId: 45619e6cd1206a14c85fea0c0873b685
     - name: boss door_Frame_31
       frameIndex: 31
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1380,7 +1348,6 @@ ScriptedImporter:
       spriteId: ae5275dab98fa1a48b2e770c6387566f
     - name: boss door_Frame_32
       frameIndex: 32
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1389,7 +1356,6 @@ ScriptedImporter:
       spriteId: 31d693906299e384782dfbac4fb4fbd8
     - name: boss door_Frame_33
       frameIndex: 33
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1398,7 +1364,6 @@ ScriptedImporter:
       spriteId: 6d8036087f66d3247a465ebd62ff730e
     - name: boss door_Frame_34
       frameIndex: 34
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1407,7 +1372,6 @@ ScriptedImporter:
       spriteId: 85b5ed500460ce949b6c481959217e6d
     - name: boss door_Frame_35
       frameIndex: 35
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1416,7 +1380,6 @@ ScriptedImporter:
       spriteId: e48d3fee29ff7e14fb4e4361866dc5ca
     - name: boss door_Frame_36
       frameIndex: 36
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1425,7 +1388,6 @@ ScriptedImporter:
       spriteId: a97491503f1735f45be29c2e449438fa
     - name: boss door_Frame_37
       frameIndex: 37
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1434,7 +1396,6 @@ ScriptedImporter:
       spriteId: d182e496e01396d47a7a5311b78ae73c
     - name: boss door_Frame_38
       frameIndex: 38
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1443,7 +1404,6 @@ ScriptedImporter:
       spriteId: e432801a2e9d33d4f8fcd64bd57e9d73
     - name: boss door_Frame_39
       frameIndex: 39
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1452,7 +1412,6 @@ ScriptedImporter:
       spriteId: 6430c8d3f516bff4c9675105afbe4d7e
     - name: boss door_Frame_40
       frameIndex: 40
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1461,7 +1420,6 @@ ScriptedImporter:
       spriteId: 85500a3d178a8ed4cb0b591c8453023f
     - name: boss door_Frame_41
       frameIndex: 41
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1470,7 +1428,6 @@ ScriptedImporter:
       spriteId: 8ed83d893089d1f48a3316997e91f36b
     - name: boss door_Frame_42
       frameIndex: 42
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1479,7 +1436,6 @@ ScriptedImporter:
       spriteId: 1d51c431dcbe0a5438f696639c7be1e4
     - name: boss door_Frame_43
       frameIndex: 43
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1488,7 +1444,6 @@ ScriptedImporter:
       spriteId: 1061bdbef84b2144086fb8ca7c7cd680
     - name: boss door_Frame_44
       frameIndex: 44
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1497,7 +1452,6 @@ ScriptedImporter:
       spriteId: 41ae68c04845bde44b5239545f7d7641
     - name: boss door_Frame_45
       frameIndex: 45
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1506,7 +1460,6 @@ ScriptedImporter:
       spriteId: e14f419444dfeb548849a3586eefaa85
     - name: boss door_Frame_46
       frameIndex: 46
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1515,7 +1468,6 @@ ScriptedImporter:
       spriteId: 771916921b7fcfb42bea065acbd54e5e
     - name: boss door_Frame_47
       frameIndex: 47
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0

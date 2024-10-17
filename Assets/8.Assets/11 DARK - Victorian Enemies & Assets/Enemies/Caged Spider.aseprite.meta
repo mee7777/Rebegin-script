@@ -832,7 +832,6 @@ ScriptedImporter:
     cells:
     - name: Caged Spider_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 27
         y: 16
@@ -841,7 +840,6 @@ ScriptedImporter:
       spriteId: e9aa8a0f74014264eaa1a3165df696bc
     - name: Caged Spider_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 27
         y: 16
@@ -850,7 +848,6 @@ ScriptedImporter:
       spriteId: b4203f4a74352d84fa6d6d893cdebf2a
     - name: Caged Spider_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 27
         y: 16
@@ -859,7 +856,6 @@ ScriptedImporter:
       spriteId: eb0d8be7c906a9444950e65b76ba1f93
     - name: Caged Spider_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 27
         y: 16
@@ -868,7 +864,6 @@ ScriptedImporter:
       spriteId: 817bdcc7f56d3bd4bbec63803f8ccb8e
     - name: Caged Spider_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 27
         y: 16
@@ -877,7 +872,6 @@ ScriptedImporter:
       spriteId: c068d496ad146a4418d13eb4e0abe9b7
     - name: Caged Spider_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 27
         y: 16
@@ -886,7 +880,6 @@ ScriptedImporter:
       spriteId: c71fe5fa926ead541b983a00476dc71c
     - name: Caged Spider_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 27
         y: 16
@@ -895,7 +888,6 @@ ScriptedImporter:
       spriteId: d0bf1c2cffc0ad94ea97ae0fb305379e
     - name: Caged Spider_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 27
         y: 16
@@ -904,7 +896,6 @@ ScriptedImporter:
       spriteId: 9d0cb133d7d8f1843a11dd08d869ce11
     - name: Caged Spider_Frame_8
       frameIndex: 8
-      additiveSortOrder: 0
       cellRect:
         x: 26
         y: 16
@@ -913,7 +904,6 @@ ScriptedImporter:
       spriteId: b8ef543ffd73f5e458bdcab05d9ee9c4
     - name: Caged Spider_Frame_9
       frameIndex: 9
-      additiveSortOrder: 0
       cellRect:
         x: 26
         y: 16
@@ -922,7 +912,6 @@ ScriptedImporter:
       spriteId: 4c67f4b975ec1d44da86d39362d23fa9
     - name: Caged Spider_Frame_10
       frameIndex: 10
-      additiveSortOrder: 0
       cellRect:
         x: 25
         y: 16
@@ -931,7 +920,6 @@ ScriptedImporter:
       spriteId: 9ce836c872821e544a632dc0a4b80dc9
     - name: Caged Spider_Frame_11
       frameIndex: 11
-      additiveSortOrder: 0
       cellRect:
         x: 26
         y: 16
@@ -940,7 +928,6 @@ ScriptedImporter:
       spriteId: 8a79246fd3152304db6866ae14aa4cb3
     - name: Caged Spider_Frame_12
       frameIndex: 12
-      additiveSortOrder: 0
       cellRect:
         x: 24
         y: 16
@@ -949,7 +936,6 @@ ScriptedImporter:
       spriteId: a4e6871d24a19ba49ac1fa4f36d4e65f
     - name: Caged Spider_Frame_13
       frameIndex: 13
-      additiveSortOrder: 0
       cellRect:
         x: 25
         y: 16
@@ -958,7 +944,6 @@ ScriptedImporter:
       spriteId: 197f129abfb3fe043a941fc4643a8029
     - name: Caged Spider_Frame_14
       frameIndex: 14
-      additiveSortOrder: 0
       cellRect:
         x: 27
         y: 16
@@ -967,7 +952,6 @@ ScriptedImporter:
       spriteId: 4184f7066671e2e4e81b468276ed1c78
     - name: Caged Spider_Frame_15
       frameIndex: 15
-      additiveSortOrder: 0
       cellRect:
         x: 27
         y: 16
@@ -976,7 +960,6 @@ ScriptedImporter:
       spriteId: 85996be8f10ee0d4a9e8b0b284685929
     - name: Caged Spider_Frame_16
       frameIndex: 16
-      additiveSortOrder: 0
       cellRect:
         x: 27
         y: 16
@@ -985,7 +968,6 @@ ScriptedImporter:
       spriteId: fd92d5fe66a0f284ca2cf692fe2aaa90
     - name: Caged Spider_Frame_17
       frameIndex: 17
-      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 16
@@ -994,7 +976,6 @@ ScriptedImporter:
       spriteId: a06b862cde9ea6d44af369a150f43bf3
     - name: Caged Spider_Frame_18
       frameIndex: 18
-      additiveSortOrder: 0
       cellRect:
         x: 27
         y: 16
@@ -1003,7 +984,6 @@ ScriptedImporter:
       spriteId: 72e04bc0063e1f249869f9344ab2d34e
     - name: Caged Spider_Frame_19
       frameIndex: 19
-      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 16
@@ -1012,7 +992,6 @@ ScriptedImporter:
       spriteId: 173f6e54725fba248a2646802b1a14bc
     - name: Caged Spider_Frame_20
       frameIndex: 20
-      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 16
@@ -1021,7 +1000,6 @@ ScriptedImporter:
       spriteId: 83456c64bfcb01541abda3b307bb5780
     - name: Caged Spider_Frame_21
       frameIndex: 21
-      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 16
@@ -1030,7 +1008,6 @@ ScriptedImporter:
       spriteId: 15d12b63a9e4063428a369c50d78e0be
     - name: Caged Spider_Frame_22
       frameIndex: 22
-      additiveSortOrder: 0
       cellRect:
         x: 27
         y: 16
@@ -1039,7 +1016,6 @@ ScriptedImporter:
       spriteId: 86fb2c6c5eb8f4f459abf771c5e2846d
     - name: Caged Spider_Frame_23
       frameIndex: 23
-      additiveSortOrder: 0
       cellRect:
         x: 27
         y: 16
@@ -1048,7 +1024,6 @@ ScriptedImporter:
       spriteId: 85304bbf805745c44a688ecac7be6a75
     - name: Caged Spider_Frame_24
       frameIndex: 24
-      additiveSortOrder: 0
       cellRect:
         x: 27
         y: 16
@@ -1057,7 +1032,6 @@ ScriptedImporter:
       spriteId: 59877bc9ab65b3e4da097baa2e97f81e
     - name: Caged Spider_Frame_25
       frameIndex: 25
-      additiveSortOrder: 0
       cellRect:
         x: 27
         y: 16
@@ -1066,7 +1040,6 @@ ScriptedImporter:
       spriteId: 8eacfad8460bfa448ba85dd3b950ee41
     - name: Caged Spider_Frame_26
       frameIndex: 26
-      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 16
@@ -1075,7 +1048,6 @@ ScriptedImporter:
       spriteId: fce7108fca8d3ab479c7e665904f6350
     - name: Caged Spider_Frame_27
       frameIndex: 27
-      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 16
@@ -1084,7 +1056,6 @@ ScriptedImporter:
       spriteId: 0f426c54b2d61d1459067cb311185a21
     - name: Caged Spider_Frame_28
       frameIndex: 28
-      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 16
@@ -1093,7 +1064,6 @@ ScriptedImporter:
       spriteId: 45de98a0f6330f549887cdb9c6cca5c1
     - name: Caged Spider_Frame_29
       frameIndex: 29
-      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 16
@@ -1102,7 +1072,6 @@ ScriptedImporter:
       spriteId: 40822916148b561478378474f705e35c
     - name: Caged Spider_Frame_30
       frameIndex: 30
-      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 16
@@ -1111,7 +1080,6 @@ ScriptedImporter:
       spriteId: 3d7d9ab94a94f094db14a34593e8626d
     - name: Caged Spider_Frame_31
       frameIndex: 31
-      additiveSortOrder: 0
       cellRect:
         x: 24
         y: 20
@@ -1120,7 +1088,6 @@ ScriptedImporter:
       spriteId: 2fd57b8be9bf6694a9bc45af17473c46
     - name: Caged Spider_Frame_32
       frameIndex: 32
-      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 16
@@ -1129,7 +1096,6 @@ ScriptedImporter:
       spriteId: ac7bef60f2bae4947a9188f367fa42a0
     - name: Caged Spider_Frame_33
       frameIndex: 33
-      additiveSortOrder: 0
       cellRect:
         x: 23
         y: 21
@@ -1138,7 +1104,6 @@ ScriptedImporter:
       spriteId: 007e670e4a9a53a4c8eb403831b7955b
     - name: Caged Spider_Frame_34
       frameIndex: 34
-      additiveSortOrder: 0
       cellRect:
         x: 48
         y: 20
