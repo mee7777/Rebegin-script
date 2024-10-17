@@ -19,6 +19,7 @@ public class text : MonoBehaviour
     public void Interaction()
     {
         gameObject.SetActive(true);
+
     }
 }
 
