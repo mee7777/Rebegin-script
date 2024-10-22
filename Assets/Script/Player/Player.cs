@@ -9,6 +9,7 @@ public class Player : MonoBehaviour
     [SerializeField] private Rigidbody2D rigid;
     public TextManager textmanager;
 
+    public Animator animator;
     public Transform attackPoint; // 공격 위치
     public float attackRange = 0.5f; // 공격 범위
     public LayerMask enemyLayers; // 적 레이어
@@ -146,10 +147,18 @@ public class Player : MonoBehaviour
         if(js.Horizontal < 0)
         {
             direction = -2;
+            animator.SetBool("isWalk", true);
+            transform.localScale = new Vector3(-0.9f, 0.9f, 0);
         }
         if(js.Horizontal > 0)
         {
             direction = 2;
+            animator.SetBool("isWalk", true);
+            transform.localScale = new Vector3(0.9f, 0.9f, 0);
+        }
+        if(js.Horizontal == 0)
+        {
+            animator.SetBool("isWalk", false);
         }
         Debug.DrawRay(rigid.position, new Vector3(direction * detect_range, 0, 0), new Color(0, 0, 1));
 
