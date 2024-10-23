@@ -41,15 +41,12 @@ public class ChangeWeapon : MonoBehaviour
     {
         if (equip1 == true)
         {
-            if (playerSpriteRenderer != null && newSprite1 != null)
-            {
-                playerSpriteRenderer.sprite = newSprite1;  // 플레이어의 스프라이트를 새로운 것으로 변경
+            playerSpriteRenderer.sprite = newSprite1;  // 플레이어의 스프라이트를 새로운 것으로 변경
 
-                if (gun != null)
-                {
-                    gun.CanAttack = true;  // Gun 스크립트의 CanAttack 값 변경
-                    Debug.Log("CanAttack 상태: " + gun.CanAttack);  // 로그로 출력하여 상태 확인
-                }
+            if (gun != null)
+            {
+                gun.CanAttack = true;  // Gun 스크립트의 CanAttack 값 변경
+                Debug.Log("CanAttack 상태: " + gun.CanAttack);  // 로그로 출력하여 상태 확인
             }
         }
     }

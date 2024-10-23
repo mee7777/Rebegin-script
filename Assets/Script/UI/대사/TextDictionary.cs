@@ -18,6 +18,7 @@ public class TextDictionary : MonoBehaviour
     {
         talkData.Add(100, new string[] { "테스트용입니다 1번" });
         talkData.Add(101, new string[] { "테스트용입니다 2번" });
+        talkData.Add(10000, new string[] { "어딘가 막힌길이 뚫린것 같다" });
     }
 
     public string GetTalk(int id, int talkIndex)

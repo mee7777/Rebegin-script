@@ -37,6 +37,7 @@ public class Player : MonoBehaviour
     public int JumpCount = 0;
 
     Vector3 moveVec;
+    public float size = 0.9f;
 
     void Start()
     {
@@ -148,13 +149,13 @@ public class Player : MonoBehaviour
         {
             direction = -2;
             animator.SetBool("isWalk", true);
-            transform.localScale = new Vector3(-0.9f, 0.9f, 0);
+            transform.localScale = new Vector3(-size, size, 0);
         }
         if(js.Horizontal > 0)
         {
             direction = 2;
             animator.SetBool("isWalk", true);
-            transform.localScale = new Vector3(0.9f, 0.9f, 0);
+            transform.localScale = new Vector3(size, size, 0);
         }
         if(js.Horizontal == 0)
         {
