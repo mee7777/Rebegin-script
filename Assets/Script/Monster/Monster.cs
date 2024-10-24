@@ -128,12 +128,20 @@ public class Monster : MonoBehaviour
             Player playerHealth = col.GetComponent<Player>();
             if (player != null && curTime <= 0)
             {
+                chaseSpeed = 0;
                 animator.SetBool("Attack", true);
                 playerHealth.TakeDamage(AttackDmg); // 피해량 조정
                 Debug.Log("Player Health After Hit: " + playerHealth.GetCurrentHealth());
                 curTime = AttackCoolTime;
+                Invoke("stopAttack", 1.5f);
+                
             }
         }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        chaseSpeed = 3f;
     }
 
     public void TakeDamage(int damage)
@@ -159,5 +167,10 @@ public class Monster : MonoBehaviour
     public void stop()
     {
         chaseSpeed = 0f;
+    }
+
+    public void stopAttack()
+    {
+        animator.SetBool("Attack", false);
     }
 }

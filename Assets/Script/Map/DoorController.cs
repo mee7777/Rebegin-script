@@ -28,4 +28,6 @@ public class DoorController : MonoBehaviour
         text.isOpen = false;
         text.OpenDoor();
     }
+
+
 }
