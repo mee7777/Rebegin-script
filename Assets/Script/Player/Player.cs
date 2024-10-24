@@ -79,6 +79,7 @@ public class Player : MonoBehaviour
                 {
                     JumpCount++;
                     rigid.AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse);
+                    animator.SetFloat("Jump", JumpCount);
                 }
                 if (JumpCount == maxJumpCount)
                 {
@@ -93,7 +94,8 @@ public class Player : MonoBehaviour
         if (other.gameObject.tag.Equals("Floor"))
         {
             JumpCount = 0;
-            isJump = false;        
+            isJump = false;
+            animator.SetFloat("Jump", JumpCount);
         }
     }
 
