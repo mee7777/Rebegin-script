@@ -2472,6 +2472,7 @@ ScriptedImporter:
     cells:
     - name: NPCs_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
@@ -2480,6 +2481,7 @@ ScriptedImporter:
       spriteId: 93a0c5c01bc8f8949bb710ffefda2325
     - name: NPCs_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
@@ -2488,6 +2490,7 @@ ScriptedImporter:
       spriteId: 13f638037da62cf47936900e3005294a
     - name: NPCs_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
@@ -2496,6 +2499,7 @@ ScriptedImporter:
       spriteId: b7775f5e63a002b4686d3cf8c85e6fe7
     - name: NPCs_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
@@ -2504,6 +2508,7 @@ ScriptedImporter:
       spriteId: 883b4548feaa6af41a6bde2a48afc3a4
     - name: NPCs_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
@@ -2512,6 +2517,7 @@ ScriptedImporter:
       spriteId: 51700e8e019265740888f48fa30080d3
     - name: NPCs_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
@@ -2520,6 +2526,7 @@ ScriptedImporter:
       spriteId: b28653de5e97b204c962c542d30876ea
     - name: NPCs_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
@@ -2528,6 +2535,7 @@ ScriptedImporter:
       spriteId: 0ae4bbe37a0b92045a017c8643ef882a
     - name: NPCs_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
@@ -2536,6 +2544,7 @@ ScriptedImporter:
       spriteId: 8e3e22a61feddb24c8668ff85b4d54d2
     - name: NPCs_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
@@ -2544,6 +2553,7 @@ ScriptedImporter:
       spriteId: 1fb5c9c2109f2614e9fa80b380a00012
     - name: NPCs_Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
@@ -2552,6 +2562,7 @@ ScriptedImporter:
       spriteId: fead85d1e9ef553489bc44987cd17db1
     - name: NPCs_Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 0
@@ -2560,6 +2571,7 @@ ScriptedImporter:
       spriteId: 9fc55a7063761b04eacf899405e51439
     - name: NPCs_Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
@@ -2568,6 +2580,7 @@ ScriptedImporter:
       spriteId: 4c10b6ce757fdc94eb6d39d688ebfac3
     - name: NPCs_Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
@@ -2576,6 +2589,7 @@ ScriptedImporter:
       spriteId: 525806fbbc2e95644985a3280457a9ba
     - name: NPCs_Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
@@ -2584,6 +2598,7 @@ ScriptedImporter:
       spriteId: 6884d588442abd8438b8881942b7415d
     - name: NPCs_Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
@@ -2592,6 +2607,7 @@ ScriptedImporter:
       spriteId: 4e1c3af1cc6192842b869c72831d94a5
     - name: NPCs_Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
@@ -2600,6 +2616,7 @@ ScriptedImporter:
       spriteId: 0e3247b8fddd40f4fb6e78f235b5a0ad
     - name: NPCs_Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 0
@@ -2608,6 +2625,7 @@ ScriptedImporter:
       spriteId: 02ff1ea84c7eb014bb033e35131fa7cc
     - name: NPCs_Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 0
@@ -2616,6 +2634,7 @@ ScriptedImporter:
       spriteId: b7b0e92bfa252934991e78fa041d99e2
     - name: NPCs_Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
@@ -2624,6 +2643,7 @@ ScriptedImporter:
       spriteId: 1fedc258fcf0ab046af534021f081ec1
     - name: NPCs_Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 0
@@ -2632,6 +2652,7 @@ ScriptedImporter:
       spriteId: f57f81e970d5b904c80a787225d548ad
     - name: NPCs_Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 0
@@ -2640,6 +2661,7 @@ ScriptedImporter:
       spriteId: b9a84c6364a6b744a95c2ae26170b9cc
     - name: NPCs_Frame_28
       frameIndex: 28
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
@@ -2648,6 +2670,7 @@ ScriptedImporter:
       spriteId: 225705075a7ca7742a2024775c9b4dc1
     - name: NPCs_Frame_29
       frameIndex: 29
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 0
@@ -2656,6 +2679,7 @@ ScriptedImporter:
       spriteId: 3c016d52471fcfd4e8a6ecaaa8dffe9d
     - name: NPCs_Frame_30
       frameIndex: 30
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 0
@@ -2664,6 +2688,7 @@ ScriptedImporter:
       spriteId: 59b96b89aa6f5a0439c941a15e77c90d
     - name: NPCs_Frame_31
       frameIndex: 31
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
@@ -2672,6 +2697,7 @@ ScriptedImporter:
       spriteId: fc49d32e5a122ea4ca1e0ca449a9d56a
     - name: NPCs_Frame_32
       frameIndex: 32
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
@@ -2680,6 +2706,7 @@ ScriptedImporter:
       spriteId: 242b4f54786cbc04c975e7638530f638
     - name: NPCs_Frame_33
       frameIndex: 33
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
@@ -2688,6 +2715,7 @@ ScriptedImporter:
       spriteId: 4059fbf132fc9d14bbd243533eff1cc2
     - name: NPCs_Frame_34
       frameIndex: 34
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
@@ -2696,6 +2724,7 @@ ScriptedImporter:
       spriteId: b37722b7b84dff84c9e692fa6301081d
     - name: NPCs_Frame_35
       frameIndex: 35
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
@@ -2704,6 +2733,7 @@ ScriptedImporter:
       spriteId: fc111a5f23df73c479eae2eeef778303
     - name: NPCs_Frame_36
       frameIndex: 36
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
@@ -2712,6 +2742,7 @@ ScriptedImporter:
       spriteId: 53d28238267c377478da20c9c478623b
     - name: NPCs_Frame_37
       frameIndex: 37
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
@@ -2720,6 +2751,7 @@ ScriptedImporter:
       spriteId: 17aa45d590ddafb4684ed591e096b3cc
     - name: NPCs_Frame_38
       frameIndex: 38
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
@@ -2728,6 +2760,7 @@ ScriptedImporter:
       spriteId: 6eca84d078b36674eb91d2447c34054f
     - name: NPCs_Frame_39
       frameIndex: 39
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
@@ -2736,6 +2769,7 @@ ScriptedImporter:
       spriteId: 5dabeba4e386aec4ca2fa5445ce94251
     - name: NPCs_Frame_40
       frameIndex: 40
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 0
@@ -2744,6 +2778,7 @@ ScriptedImporter:
       spriteId: bb8bb156f4006854e86a2b33c8edf366
     - name: NPCs_Frame_41
       frameIndex: 41
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 0
@@ -2752,6 +2787,7 @@ ScriptedImporter:
       spriteId: a389b2ef9c1e7b447a44e107f73f11f0
     - name: NPCs_Frame_42
       frameIndex: 42
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 0
@@ -2760,6 +2796,7 @@ ScriptedImporter:
       spriteId: cc979e08489364943abd5fc11f9a0f64
     - name: NPCs_Frame_43
       frameIndex: 43
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 0
@@ -2768,6 +2805,7 @@ ScriptedImporter:
       spriteId: e3a851e04b2433141942f6517a811bdf
     - name: NPCs_Frame_44
       frameIndex: 44
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 0
@@ -2776,6 +2814,7 @@ ScriptedImporter:
       spriteId: 0258f8b3c7df0464a921efae256cad11
     - name: NPCs_Frame_45
       frameIndex: 45
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 0
@@ -2784,6 +2823,7 @@ ScriptedImporter:
       spriteId: 28001dd391c57554dba872c7d697aa70
     - name: NPCs_Frame_46
       frameIndex: 46
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 0
@@ -2792,6 +2832,7 @@ ScriptedImporter:
       spriteId: 1fbdd1e2e0ff457479cfe66e31465beb
     - name: NPCs_Frame_47
       frameIndex: 47
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 0
@@ -2800,6 +2841,7 @@ ScriptedImporter:
       spriteId: 972be27cb98fd3e4a90c8925c249bc2f
     - name: NPCs_Frame_48
       frameIndex: 48
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 0
@@ -2808,6 +2850,7 @@ ScriptedImporter:
       spriteId: 9a74f53d9eb0c1147bd8f498a61b2ab7
     - name: NPCs_Frame_49
       frameIndex: 49
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 0
@@ -2816,6 +2859,7 @@ ScriptedImporter:
       spriteId: 1afade8af27771f4cae9413e705a04f0
     - name: NPCs_Frame_50
       frameIndex: 50
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 0
@@ -2824,6 +2868,7 @@ ScriptedImporter:
       spriteId: f0f3ca32c6329de4ebfb9bd67808b7f0
     - name: NPCs_Frame_51
       frameIndex: 51
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 0
@@ -2832,6 +2877,7 @@ ScriptedImporter:
       spriteId: 622172c5d0207ff43b06e436fcbc8444
     - name: NPCs_Frame_52
       frameIndex: 52
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 0
@@ -2840,6 +2886,7 @@ ScriptedImporter:
       spriteId: 7f88d63ca336a9f49af942e7e9b94b4c
     - name: NPCs_Frame_53
       frameIndex: 53
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 0
@@ -2848,6 +2895,7 @@ ScriptedImporter:
       spriteId: e50a687a94cbf164c985c24e45967c1c
     - name: NPCs_Frame_54
       frameIndex: 54
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 0
@@ -2856,6 +2904,7 @@ ScriptedImporter:
       spriteId: d5070cecfaa98c84fa71610bd2748646
     - name: NPCs_Frame_55
       frameIndex: 55
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 0
@@ -2864,6 +2913,7 @@ ScriptedImporter:
       spriteId: 6656e99e8267e1645a5d764880dbac25
     - name: NPCs_Frame_56
       frameIndex: 56
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 0
@@ -2872,6 +2922,7 @@ ScriptedImporter:
       spriteId: edc26e61e792e834aaf549177647626c
     - name: NPCs_Frame_57
       frameIndex: 57
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 0
@@ -2880,6 +2931,7 @@ ScriptedImporter:
       spriteId: b03b9e18f0c79ae4b8fec768e073fa66
     - name: NPCs_Frame_58
       frameIndex: 58
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 0
@@ -2888,6 +2940,7 @@ ScriptedImporter:
       spriteId: 55a1a041edd5cb44fad3e6a6b2b6e66c
     - name: NPCs_Frame_59
       frameIndex: 59
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 0
@@ -2896,6 +2949,7 @@ ScriptedImporter:
       spriteId: f16aa822e7cf5824ea79b5119d1480bf
     - name: NPCs_Frame_60
       frameIndex: 60
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
@@ -2904,6 +2958,7 @@ ScriptedImporter:
       spriteId: 1b8ac2db65b81f84f8916c2f8a850b13
     - name: NPCs_Frame_61
       frameIndex: 61
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
@@ -2912,6 +2967,7 @@ ScriptedImporter:
       spriteId: 500a210733d11644189ccf1b9fff8376
     - name: NPCs_Frame_62
       frameIndex: 62
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
@@ -2920,6 +2976,7 @@ ScriptedImporter:
       spriteId: 7c311850c74a0ed43aefabbeded4ef25
     - name: NPCs_Frame_63
       frameIndex: 63
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
@@ -2928,6 +2985,7 @@ ScriptedImporter:
       spriteId: f368ef596329d5a4894cfc75ee4fc428
     - name: NPCs_Frame_64
       frameIndex: 64
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
@@ -2936,6 +2994,7 @@ ScriptedImporter:
       spriteId: 0b651dc53a9a9354e8cc40e34a7b090b
     - name: NPCs_Frame_65
       frameIndex: 65
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
@@ -2944,6 +3003,7 @@ ScriptedImporter:
       spriteId: 51ab9db6be6c2a64ca87bb3397f973b7
     - name: NPCs_Frame_66
       frameIndex: 66
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
@@ -2952,6 +3012,7 @@ ScriptedImporter:
       spriteId: 3d57bf4f5c5233a4ab3f0129a9e31356
     - name: NPCs_Frame_67
       frameIndex: 67
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
@@ -2960,6 +3021,7 @@ ScriptedImporter:
       spriteId: cbc85c8c23a17064394fa4a3893c055e
     - name: NPCs_Frame_68
       frameIndex: 68
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
@@ -2968,6 +3030,7 @@ ScriptedImporter:
       spriteId: 7aa23df192b9db640afb1a2a525a824b
     - name: NPCs_Frame_69
       frameIndex: 69
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
@@ -2976,6 +3039,7 @@ ScriptedImporter:
       spriteId: c817eb234f1e4bd4ea44e2a6d937950b
     - name: NPCs_Frame_70
       frameIndex: 70
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
@@ -2984,6 +3048,7 @@ ScriptedImporter:
       spriteId: 428565c1d4aedea4d81989647a215805
     - name: NPCs_Frame_71
       frameIndex: 71
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
@@ -2992,6 +3057,7 @@ ScriptedImporter:
       spriteId: 868dfcb0728dfbc4fb8148228018613c
     - name: NPCs_Frame_72
       frameIndex: 72
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
@@ -3000,6 +3066,7 @@ ScriptedImporter:
       spriteId: 5cfdddc2d702e3044bfa9ed2326d3117
     - name: NPCs_Frame_73
       frameIndex: 73
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
@@ -3008,6 +3075,7 @@ ScriptedImporter:
       spriteId: b3c6ad15bbaa1d24c873fa86a3c38102
     - name: NPCs_Frame_74
       frameIndex: 74
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
@@ -3016,6 +3084,7 @@ ScriptedImporter:
       spriteId: db59d4c33a5ef8e4b9509bf412d79607
     - name: NPCs_Frame_75
       frameIndex: 75
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
@@ -3024,6 +3093,7 @@ ScriptedImporter:
       spriteId: 371b6156b3c8a644b8bd8ea4076d9fca
     - name: NPCs_Frame_76
       frameIndex: 76
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
@@ -3032,6 +3102,7 @@ ScriptedImporter:
       spriteId: 014e58d0b2e69c645bb87f19a6f447fe
     - name: NPCs_Frame_77
       frameIndex: 77
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
@@ -3040,6 +3111,7 @@ ScriptedImporter:
       spriteId: 04e50c920040f1044865c782305ca573
     - name: NPCs_Frame_78
       frameIndex: 78
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
@@ -3048,6 +3120,7 @@ ScriptedImporter:
       spriteId: 75a6be62382fffc40a0d091fd4fd6cef
     - name: NPCs_Frame_79
       frameIndex: 79
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
@@ -3056,6 +3129,7 @@ ScriptedImporter:
       spriteId: 597ee7c2e34378942a1851abd755af68
     - name: NPCs_Frame_80
       frameIndex: 80
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
@@ -3064,6 +3138,7 @@ ScriptedImporter:
       spriteId: b87d7a592ccb7b347a86a9a2cdbe5c83
     - name: NPCs_Frame_81
       frameIndex: 81
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
@@ -3072,6 +3147,7 @@ ScriptedImporter:
       spriteId: 07ca926ff7b57af40bda9f3b41ba7fc3
     - name: NPCs_Frame_82
       frameIndex: 82
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
@@ -3080,6 +3156,7 @@ ScriptedImporter:
       spriteId: 7fce1bf2986c5d24594b0f3e7f1e7e09
     - name: NPCs_Frame_83
       frameIndex: 83
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
@@ -3088,6 +3165,7 @@ ScriptedImporter:
       spriteId: e54b7870289ffe742aa26319c9434212
     - name: NPCs_Frame_84
       frameIndex: 84
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
@@ -3096,6 +3174,7 @@ ScriptedImporter:
       spriteId: 9e04cafedebc6954a889a88c534785bf
     - name: NPCs_Frame_85
       frameIndex: 85
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
@@ -3104,6 +3183,7 @@ ScriptedImporter:
       spriteId: 4f40d9bf53ae3e343a270670a281a88c
     - name: NPCs_Frame_86
       frameIndex: 86
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
@@ -3112,6 +3192,7 @@ ScriptedImporter:
       spriteId: d6701cc593da69a4eb87b649ffdf84d3
     - name: NPCs_Frame_87
       frameIndex: 87
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 0
@@ -3120,6 +3201,7 @@ ScriptedImporter:
       spriteId: c0e90a8aec6e6204bb303e91cd4b85d1
     - name: NPCs_Frame_88
       frameIndex: 88
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
@@ -3128,6 +3210,7 @@ ScriptedImporter:
       spriteId: 386598a910275dd45b5e9ddbee1fe20a
     - name: NPCs_Frame_89
       frameIndex: 89
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
@@ -3136,6 +3219,7 @@ ScriptedImporter:
       spriteId: 45c973f1cd1061b4b9f1736ecd85ac3f
     - name: NPCs_Frame_90
       frameIndex: 90
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
@@ -3144,6 +3228,7 @@ ScriptedImporter:
       spriteId: 4df19cf22c1fcd04ca184710c270fd85
     - name: NPCs_Frame_91
       frameIndex: 91
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
@@ -3152,6 +3237,7 @@ ScriptedImporter:
       spriteId: 9a9c547bb6100254b8c52cb31781477a
     - name: NPCs_Frame_92
       frameIndex: 92
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
@@ -3160,6 +3246,7 @@ ScriptedImporter:
       spriteId: 522a5766c92d7414a903ab8a7e9ab88e
     - name: NPCs_Frame_93
       frameIndex: 93
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
@@ -3168,6 +3255,7 @@ ScriptedImporter:
       spriteId: 640bc9b66fa4c364595866223834cd89
     - name: NPCs_Frame_94
       frameIndex: 94
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
@@ -3176,6 +3264,7 @@ ScriptedImporter:
       spriteId: d6395be9fca0a2a49a835fbeba1a4f6e
     - name: NPCs_Frame_95
       frameIndex: 95
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
@@ -3184,6 +3273,7 @@ ScriptedImporter:
       spriteId: 6ff5ebdd1057de949aef699db9eb716e
     - name: NPCs_Frame_96
       frameIndex: 96
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
@@ -3192,6 +3282,7 @@ ScriptedImporter:
       spriteId: f1c90eb63ecb87c42bf1ca27f1aa4872
     - name: NPCs_Frame_97
       frameIndex: 97
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
@@ -3200,6 +3291,7 @@ ScriptedImporter:
       spriteId: 084640b374185024aae56015d5c48593
     - name: NPCs_Frame_98
       frameIndex: 98
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
@@ -3208,6 +3300,7 @@ ScriptedImporter:
       spriteId: cf9afb6a93ff12e4a80037ba8b198789
     - name: NPCs_Frame_99
       frameIndex: 99
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
@@ -3216,6 +3309,7 @@ ScriptedImporter:
       spriteId: 915eb095055b4f84fbd676ef66a66790
     - name: NPCs_Frame_100
       frameIndex: 100
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
@@ -3224,6 +3318,7 @@ ScriptedImporter:
       spriteId: d2ea081a39820c444854fbeb6a66ebb7
     - name: NPCs_Frame_101
       frameIndex: 101
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
@@ -3232,6 +3327,7 @@ ScriptedImporter:
       spriteId: fe78ea8ffb5e6aa48921d2634c4c0e11
     - name: NPCs_Frame_102
       frameIndex: 102
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
@@ -3240,6 +3336,7 @@ ScriptedImporter:
       spriteId: 19b3e62fc2e501b4fa457a24a750bdf6
     - name: NPCs_Frame_103
       frameIndex: 103
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
@@ -3248,6 +3345,7 @@ ScriptedImporter:
       spriteId: b3915d4fece71c94ea2620338700e6fd
     - name: NPCs_Frame_104
       frameIndex: 104
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
@@ -3256,6 +3354,7 @@ ScriptedImporter:
       spriteId: c86104a0b74f63b46b979145ebbc9997
     - name: NPCs_Frame_105
       frameIndex: 105
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
@@ -3264,6 +3363,7 @@ ScriptedImporter:
       spriteId: 6765a32658974bb4d925ac7dfc821d01
     - name: NPCs_Frame_106
       frameIndex: 106
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
@@ -3272,6 +3372,7 @@ ScriptedImporter:
       spriteId: b4909286bca04914086439bb23fbc91a
     - name: NPCs_Frame_107
       frameIndex: 107
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
@@ -3280,6 +3381,7 @@ ScriptedImporter:
       spriteId: 78a0f5e1b1125df43904a2bf4b76453d
     - name: NPCs_Frame_108
       frameIndex: 108
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
@@ -3288,6 +3390,7 @@ ScriptedImporter:
       spriteId: a9007a3ae1604884fa401529cc3da849
     - name: NPCs_Frame_109
       frameIndex: 109
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
@@ -3296,6 +3399,7 @@ ScriptedImporter:
       spriteId: cbceac66956a2864e9c338c25610ad65
     - name: NPCs_Frame_110
       frameIndex: 110
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
@@ -3304,6 +3408,7 @@ ScriptedImporter:
       spriteId: c5fa09a1d603890458227fcb8af5f2ee
     - name: NPCs_Frame_111
       frameIndex: 111
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
@@ -3312,6 +3417,7 @@ ScriptedImporter:
       spriteId: cd00b5c718aba34409fdf3b96bb74fe1
     - name: NPCs_Frame_112
       frameIndex: 112
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 0
@@ -3320,6 +3426,7 @@ ScriptedImporter:
       spriteId: dfedce38581e98f4583b4c94ae38fa10
     - name: NPCs_Frame_113
       frameIndex: 113
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 0
@@ -3328,6 +3435,7 @@ ScriptedImporter:
       spriteId: 0e2e20979a3192d44842266a26a6c3f4
     - name: NPCs_Frame_114
       frameIndex: 114
+      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 0
@@ -3336,6 +3444,7 @@ ScriptedImporter:
       spriteId: 6a2afa5d4bc5f4e41a04c393517d9678
     - name: NPCs_Frame_115
       frameIndex: 115
+      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 0
@@ -3344,6 +3453,7 @@ ScriptedImporter:
       spriteId: c44a2366d2a513544b6fb04a2b5b7c04
     - name: NPCs_Frame_116
       frameIndex: 116
+      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 0
@@ -3352,6 +3462,7 @@ ScriptedImporter:
       spriteId: 0402bb6de1394c44f9a26ebfa057bef3
     - name: NPCs_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
@@ -3360,6 +3471,7 @@ ScriptedImporter:
       spriteId: 4199f72a34b4bcd4aabc23e5a6707b7c
     - name: NPCs_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
@@ -3368,6 +3480,7 @@ ScriptedImporter:
       spriteId: c9d2b970db042fb44ab2f49dccc3fb2e
     - name: NPCs_Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
@@ -3376,6 +3489,7 @@ ScriptedImporter:
       spriteId: 8283a9a7b4539584b8d51cef57cf8c4e
     - name: NPCs_Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
@@ -3384,6 +3498,7 @@ ScriptedImporter:
       spriteId: 0b00b2989753e58468bd88d51c13e9f0
     - name: NPCs_Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
@@ -3392,6 +3507,7 @@ ScriptedImporter:
       spriteId: 2f8c26ff892b92441b5378d901c407a7
     - name: NPCs_Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
@@ -3400,6 +3516,7 @@ ScriptedImporter:
       spriteId: 4b881598bdb12864b8551ed39dd3dde9
     - name: NPCs_Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0

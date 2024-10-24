@@ -332,6 +332,7 @@ ScriptedImporter:
     cells:
     - name: Aim Cursors_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 2
@@ -340,6 +341,7 @@ ScriptedImporter:
       spriteId: 978456d1e5e61d14eb2706b6d22a7aa2
     - name: Aim Cursors_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 2
@@ -348,6 +350,7 @@ ScriptedImporter:
       spriteId: a5c3dd91490a5214f938fdc890f28826
     - name: Aim Cursors_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 2
@@ -356,6 +359,7 @@ ScriptedImporter:
       spriteId: be706ca9707371947981f4e4e8b82b2f
     - name: Aim Cursors_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 3
@@ -364,6 +368,7 @@ ScriptedImporter:
       spriteId: 668b0f44e14347040a96592359452502
     - name: Aim Cursors_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 3
@@ -372,6 +377,7 @@ ScriptedImporter:
       spriteId: 317122d02527b94408293ff3b7294349
     - name: Aim Cursors_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 3
@@ -380,6 +386,7 @@ ScriptedImporter:
       spriteId: 0da5bcaf7555c2b4e81239df826ea1c9
     - name: Aim Cursors_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 2
@@ -388,6 +395,7 @@ ScriptedImporter:
       spriteId: 827ee648c2950ca4c992e80185837be6
     - name: Aim Cursors_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 2
@@ -396,6 +404,7 @@ ScriptedImporter:
       spriteId: 1d8be393597c5384d847cb2d84652087
     - name: Aim Cursors_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 4
@@ -404,6 +413,7 @@ ScriptedImporter:
       spriteId: 73bd349e40b73974f8fc66ad0bc8af57
     - name: Aim Cursors_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 1

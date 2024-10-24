@@ -15,6 +15,8 @@ public class Monster : MonoBehaviour
     public int AttackDmg = 1;
     public int Health = 1;
     public EnemyManager enemyManager;
+    public float size = 1;
+    public Animator animator;
 
     private Vector2 startingPosition;
     private bool movingRight = true;
@@ -42,6 +44,7 @@ public class Monster : MonoBehaviour
         else if (distanceToPlayer <= detectionRange)
         {
             ChasePlayer();
+            FaceTarget();
         }
         else
         {
@@ -56,11 +59,11 @@ public class Monster : MonoBehaviour
     {
         if (player.position.x - transform.position.x < 0) // 타겟이 왼쪽에 있을 때
         {
-            transform.localScale = new Vector3(-1, 1, 1);
+            transform.localScale = new Vector3(-size, size, 0);
         }
         else // 타겟이 오른쪽에 있을 때
         {
-            transform.localScale = new Vector3(1, 1, 1);
+            transform.localScale = new Vector3(size, size, 0);
         }
     }
 
@@ -69,10 +72,12 @@ public class Monster : MonoBehaviour
         if (movingRight)
         {
             transform.rotation = Quaternion.Euler(0, 180, 0);
+            transform.localScale = new Vector3(size, size, 0);
         }
         else
         {
             transform.rotation = Quaternion.Euler(0, 0, 0);
+            transform.localScale = new Vector3(-size, size, 0);
         }
     }
 
@@ -123,6 +128,7 @@ public class Monster : MonoBehaviour
             Player playerHealth = col.GetComponent<Player>();
             if (player != null && curTime <= 0)
             {
+                animator.SetBool("Attack", true);
                 playerHealth.TakeDamage(AttackDmg); // 피해량 조정
                 Debug.Log("Player Health After Hit: " + playerHealth.GetCurrentHealth());
                 curTime = AttackCoolTime;
@@ -137,7 +143,9 @@ public class Monster : MonoBehaviour
 
         if (Health <= 0)
         {
-            Die();
+            stop();
+            animator.SetBool("hit", true);
+            Invoke("Die", 1f);
         }
     }
 
@@ -146,5 +154,10 @@ public class Monster : MonoBehaviour
         Destroy(gameObject);  // 적 오브젝트를 파괴
         // 적이 죽을 때 EnemyManager의 deathCount를 증가시킵니다.
         enemyManager.IncreaseDeathCount();
+    }
+
+    public void stop()
+    {
+        chaseSpeed = 0f;
     }
 }

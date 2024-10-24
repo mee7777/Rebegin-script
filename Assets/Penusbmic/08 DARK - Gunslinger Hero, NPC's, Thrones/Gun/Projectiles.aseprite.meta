@@ -572,6 +572,7 @@ ScriptedImporter:
     cells:
     - name: Projectiles_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 6
@@ -580,6 +581,7 @@ ScriptedImporter:
       spriteId: fa190ee5f4748b24fab6e449b8aefaa3
     - name: Projectiles_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 6
@@ -588,6 +590,7 @@ ScriptedImporter:
       spriteId: 54f4c2f9d9be04f4aac89279f9062e8c
     - name: Projectiles_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 6
@@ -596,6 +599,7 @@ ScriptedImporter:
       spriteId: dd21d10d77bf5b14980e627af36f7cb5
     - name: Projectiles_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 5
@@ -604,6 +608,7 @@ ScriptedImporter:
       spriteId: e75cd9e32f5f81a45ab8be97ab3e8f96
     - name: Projectiles_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 4
@@ -612,6 +617,7 @@ ScriptedImporter:
       spriteId: 89fb68ab4d919c94cbe4674d28d86713
     - name: Projectiles_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 3
@@ -620,6 +626,7 @@ ScriptedImporter:
       spriteId: a607240de6504c64eba3a5812f03017b
     - name: Projectiles_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 6
@@ -628,6 +635,7 @@ ScriptedImporter:
       spriteId: 790c0db1c5f1582489776a3ce4d6fdf6
     - name: Projectiles_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 5
@@ -636,6 +644,7 @@ ScriptedImporter:
       spriteId: 58c1d7ba151da3247b67d488b7e5914a
     - name: Projectiles_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 5
@@ -644,6 +653,7 @@ ScriptedImporter:
       spriteId: 81c2eb6a26077f94bb05c4fc5aede37f
     - name: Projectiles_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 5
@@ -652,6 +662,7 @@ ScriptedImporter:
       spriteId: 3ad2941ef97e9094a843b0eed97a86ef
     - name: Projectiles_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 5
@@ -660,6 +671,7 @@ ScriptedImporter:
       spriteId: 2751e7b2da6b83e4eb5c7d397e95752a
     - name: Projectiles_Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 4
@@ -668,6 +680,7 @@ ScriptedImporter:
       spriteId: 19401bac0c23a0b46b3bb955da8b86b6
     - name: Projectiles_Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 5
@@ -676,6 +689,7 @@ ScriptedImporter:
       spriteId: b3389e560df04f5428a3a64868a661d3
     - name: Projectiles_Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 8
@@ -684,6 +698,7 @@ ScriptedImporter:
       spriteId: a0b6be35163ccfa43bfc1f3fa0554252
     - name: Projectiles_Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 4
@@ -692,6 +707,7 @@ ScriptedImporter:
       spriteId: 4fbca27d4dedac5438ceae225d5dc3d8
     - name: Projectiles_Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 4
@@ -700,6 +716,7 @@ ScriptedImporter:
       spriteId: 75b2108d6c2e9ba46b95d48b48cee30a
     - name: Projectiles_Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 4
@@ -708,6 +725,7 @@ ScriptedImporter:
       spriteId: 60023c542723a9c4bbb110a10f69b30e
     - name: Projectiles_Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 4
@@ -716,6 +734,7 @@ ScriptedImporter:
       spriteId: 02c1a819ea978014db1a05e70c4cfb62
     - name: Projectiles_Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 4
@@ -724,6 +743,7 @@ ScriptedImporter:
       spriteId: 1774053bde9058046a4a24ecf2397598
     - name: Projectiles_Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 3
@@ -732,6 +752,7 @@ ScriptedImporter:
       spriteId: dd6744dcf339429489447dbdd8587c95
     - name: Projectiles_Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 3
@@ -740,6 +761,7 @@ ScriptedImporter:
       spriteId: c4ba2c3970584594b8906fc82eff119d
     - name: Projectiles_Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 11
