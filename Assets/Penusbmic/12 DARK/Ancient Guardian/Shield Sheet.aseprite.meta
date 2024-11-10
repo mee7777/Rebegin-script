@@ -612,7 +612,6 @@ ScriptedImporter:
     cells:
     - name: Shield Sheet_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 5
@@ -621,7 +620,6 @@ ScriptedImporter:
       spriteId: 6576613dcf223594b98a2ad8546236c7
     - name: Shield Sheet_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 6
@@ -630,7 +628,6 @@ ScriptedImporter:
       spriteId: d27b4d7399b9ea348b3952f4c0ae3d55
     - name: Shield Sheet_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 5
@@ -639,7 +636,6 @@ ScriptedImporter:
       spriteId: b5ee5d35db261594bb0459afac7c84d7
     - name: Shield Sheet_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 6
@@ -648,7 +644,6 @@ ScriptedImporter:
       spriteId: 85a7323ef7f3a6140a95c0c62cb95921
     - name: Shield Sheet_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 5
@@ -657,7 +652,6 @@ ScriptedImporter:
       spriteId: ddba5bd79bfc4174e85e8f7ff287e7a3
     - name: Shield Sheet_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 6
@@ -666,7 +660,6 @@ ScriptedImporter:
       spriteId: e245cda4b9578e74394d2a700aea90eb
     - name: Shield Sheet_Frame_8
       frameIndex: 8
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 5
@@ -675,7 +668,6 @@ ScriptedImporter:
       spriteId: 4bf556b97d770dc45bee67233103b9f2
     - name: Shield Sheet_Frame_9
       frameIndex: 9
-      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 6
@@ -684,7 +676,6 @@ ScriptedImporter:
       spriteId: d0bfe0f80e4f0c54da5b49d021d280a7
     - name: Shield Sheet_Frame_10
       frameIndex: 10
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 1
@@ -693,7 +684,6 @@ ScriptedImporter:
       spriteId: d598335813b33cf46ab89fba3628fb50
     - name: Shield Sheet_Frame_12
       frameIndex: 12
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
@@ -702,7 +692,6 @@ ScriptedImporter:
       spriteId: 57c3de6fe8296c6428acd8aeceee95ee
     - name: Shield Sheet_Frame_13
       frameIndex: 13
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
@@ -711,7 +700,6 @@ ScriptedImporter:
       spriteId: d4bba5163f4809d4592909ecd0e092a0
     - name: Shield Sheet_Frame_14
       frameIndex: 14
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
@@ -720,7 +708,6 @@ ScriptedImporter:
       spriteId: 561ec6a6ea2785949bd4f15f546ce375
     - name: Shield Sheet_Frame_15
       frameIndex: 15
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 6
@@ -729,7 +716,6 @@ ScriptedImporter:
       spriteId: 7b7aac991466040498d7631bfc59c9cc
     - name: Shield Sheet_Frame_16
       frameIndex: 16
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 5
@@ -738,7 +724,6 @@ ScriptedImporter:
       spriteId: 48904e63d035180409e30b24e5c27242
     - name: Shield Sheet_Frame_17
       frameIndex: 17
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 6
@@ -747,7 +732,6 @@ ScriptedImporter:
       spriteId: 91e0f622456908649899ffa64cecb409
     - name: Shield Sheet_Frame_18
       frameIndex: 18
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 5
@@ -756,7 +740,6 @@ ScriptedImporter:
       spriteId: 8bccca2426769064588a2b8d36f759c6
     - name: Shield Sheet_Frame_19
       frameIndex: 19
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 6
@@ -765,7 +748,6 @@ ScriptedImporter:
       spriteId: 8255aff616019c84bb33481d2a454bff
     - name: Shield Sheet_Frame_20
       frameIndex: 20
-      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 5
@@ -774,7 +756,6 @@ ScriptedImporter:
       spriteId: bc9436b8085d7f049bd188badfe04ced
     - name: Shield Sheet_Frame_21
       frameIndex: 21
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 6
@@ -783,7 +764,6 @@ ScriptedImporter:
       spriteId: da3e35ea5a30d99428af32d669dafaef
     - name: Shield Sheet_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 18
@@ -792,7 +772,6 @@ ScriptedImporter:
       spriteId: 40141e54653a3e94ba81f6d2f79d49bd
     - name: Shield Sheet_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 12
@@ -801,7 +780,6 @@ ScriptedImporter:
       spriteId: 756996d531ed7d446abde843b93cf425
     - name: Shield Sheet_Frame_11
       frameIndex: 11
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 6
@@ -810,7 +788,6 @@ ScriptedImporter:
       spriteId: 3d047554387320e4a8642e7ff96bcefc
     - name: Shield Sheet_Frame_22
       frameIndex: 22
-      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 12
@@ -819,7 +796,6 @@ ScriptedImporter:
       spriteId: 9cdbc3fcb9448354f91d74d3ef78835b
     - name: Shield Sheet_Frame_23
       frameIndex: 23
-      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 19

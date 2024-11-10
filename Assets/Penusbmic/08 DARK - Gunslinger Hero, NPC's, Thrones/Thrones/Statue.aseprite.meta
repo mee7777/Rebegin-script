@@ -292,7 +292,6 @@ ScriptedImporter:
     cells:
     - name: Statue_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 0
@@ -301,7 +300,6 @@ ScriptedImporter:
       spriteId: 1791353b5ba031b428fb288f3b70807b
     - name: Statue_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 0
@@ -310,7 +308,6 @@ ScriptedImporter:
       spriteId: 6e52b308ab5709846b0498a8899601ae
     - name: Statue_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 0
@@ -319,7 +316,6 @@ ScriptedImporter:
       spriteId: 53d435764e3effc4abf473fe3b52d400
     - name: Statue_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 0
@@ -328,7 +324,6 @@ ScriptedImporter:
       spriteId: b7bf59c9693b42c4794ac9f7dc753dd5
     - name: Statue_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 0
@@ -337,7 +332,6 @@ ScriptedImporter:
       spriteId: f216505e3edef7643911dc2d70f25bf2
     - name: Statue_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 0
@@ -346,7 +340,6 @@ ScriptedImporter:
       spriteId: c98f9c174586b714983f52a35c96385d
     - name: Statue_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 0
@@ -355,7 +348,6 @@ ScriptedImporter:
       spriteId: b67c4ae6162afbf468b7e0acfeb62075
     - name: Statue_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 0

@@ -13,7 +13,7 @@ public class Monster : MonoBehaviour
     public float patrolDistance = 10f;          // 몬스터가 순찰할 구간의 길이
     public float AttackCoolTime = 1f;
     public int AttackDmg = 1;
-    public int Health = 1;
+    public int Health = 3;
     public EnemyManager enemyManager;
     public float size = 1;
     public Animator animator;

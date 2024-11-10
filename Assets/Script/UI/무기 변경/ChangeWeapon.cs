@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class ChangeWeapon : MonoBehaviour
 {
     public GameObject TestWeapon;  // Gun 스크립트를 가지고 있는 무기 오브젝트
-    private Gun gun;  // Gun 스크립트 참조
+    public Aim aim;
 
     public bool equip1;
     public bool equip2;
@@ -19,20 +19,75 @@ public class ChangeWeapon : MonoBehaviour
     public Sprite newSprite3;
     public Sprite newSprite4;
 
+    // buttonSpriteRenderer들을 Image 타입으로 변경
+    public Button button1;
+    public Button button2;
+    public Button button3;
+    public Button button4;
+
+    public Image AttackImage;
+    public Sprite newAttackImage1;
+    public Sprite newAttackImage2;
+    public Sprite newAttackImage3;
+    public Sprite newAttackImage4;
+
     void Start()
     {
         // TestWeapon 오브젝트에서 Gun 스크립트 찾기
         if (TestWeapon != null)
         {
-            gun = TestWeapon.GetComponent<Gun>();
-            if (gun == null)
-            {
-                Debug.LogError("TestWeapon에서 Gun 컴포넌트를 찾을 수 없습니다.");
-            }
+
         }
         else
         {
             Debug.LogError("TestWeapon이 설정되지 않았습니다.");
+        }
+    }
+
+    private void Update()
+    {
+        if (button1 != null)
+        {
+            if (equip1 == true)
+            {
+                ColorBlock colorBlock = button1.colors;
+                colorBlock.normalColor = Color.white;
+                colorBlock.highlightedColor = Color.cyan;
+                colorBlock.pressedColor = Color.white;
+                colorBlock.selectedColor = Color.white;
+                colorBlock.disabledColor = Color.white;
+                button1.colors = colorBlock;  // 변경된 ColorBlock을 버튼에 적용
+            }
+            if (equip2 == true)
+            {
+                ColorBlock colorBlock = button2.colors;
+                colorBlock.normalColor = Color.white;
+                colorBlock.highlightedColor = Color.white;
+                colorBlock.pressedColor = Color.white;
+                colorBlock.selectedColor = Color.white;
+                colorBlock.disabledColor = Color.white;
+                button2.colors = colorBlock;  // 변경된 ColorBlock을 버튼에 적용
+            }
+            if (equip3 == true)
+            {
+                ColorBlock colorBlock = button3.colors;
+                colorBlock.normalColor = Color.white;
+                colorBlock.highlightedColor = Color.white;
+                colorBlock.pressedColor = Color.white;
+                colorBlock.selectedColor = Color.white;
+                colorBlock.disabledColor = Color.white;
+                button3.colors = colorBlock;  // 변경된 ColorBlock을 버튼에 적용
+            }
+            if (equip4 == true)
+            {
+                ColorBlock colorBlock = button4.colors;
+                colorBlock.normalColor = Color.white;
+                colorBlock.highlightedColor = Color.white;
+                colorBlock.pressedColor = Color.white;
+                colorBlock.selectedColor = Color.white;
+                colorBlock.disabledColor = Color.white;
+                button4.colors = colorBlock;  // 변경된 ColorBlock을 버튼에 적용
+            }
         }
     }
 
@@ -42,21 +97,18 @@ public class ChangeWeapon : MonoBehaviour
         if (equip1 == true)
         {
             playerSpriteRenderer.sprite = newSprite1;  // 플레이어의 스프라이트를 새로운 것으로 변경
-
-            if (gun != null)
-            {
-                gun.CanAttack = true;  // Gun 스크립트의 CanAttack 값 변경
-                Debug.Log("CanAttack 상태: " + gun.CanAttack);  // 로그로 출력하여 상태 확인
-            }
+            AttackImage.sprite = newAttackImage1;
+            aim.OnAim();
         }
     }
+
     public void OnChangeSprite2()
     {
         if (equip2 == true)
         {
+            AttackImage.sprite = newAttackImage2;
             if (playerSpriteRenderer != null && newSprite2 != null)
             {
-                gun.CanAttack = false;
                 playerSpriteRenderer.sprite = newSprite2; // 플레이어의 스프라이트를 새로운 것으로 변경
             }
         }
@@ -66,9 +118,9 @@ public class ChangeWeapon : MonoBehaviour
     {
         if (equip3 == true)
         {
+            AttackImage.sprite = newAttackImage3;
             if (playerSpriteRenderer != null && newSprite3 != null)
             {
-                gun.CanAttack = false;
                 playerSpriteRenderer.sprite = newSprite3; // 플레이어의 스프라이트를 새로운 것으로 변경
             }
         }
@@ -78,13 +130,14 @@ public class ChangeWeapon : MonoBehaviour
     {
         if (equip4 == true)
         {
+            AttackImage.sprite = newAttackImage4;
             if (playerSpriteRenderer != null && newSprite4 != null)
             {
-                gun.CanAttack = false;
                 playerSpriteRenderer.sprite = newSprite4; // 플레이어의 스프라이트를 새로운 것으로 변경
             }
         }
     }
 }
+
 
 

@@ -412,7 +412,6 @@ ScriptedImporter:
     cells:
     - name: Gun_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 3
         y: -4
@@ -421,7 +420,6 @@ ScriptedImporter:
       spriteId: 3ad063701f2ae064c9674565cd173457
     - name: Gun_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 3
         y: -4
@@ -430,7 +428,6 @@ ScriptedImporter:
       spriteId: 5e034cc3974d36a46a1db248176161c6
     - name: Gun_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: -4
@@ -439,7 +436,6 @@ ScriptedImporter:
       spriteId: 05300d55aaa67fa41a743a5ebf755290
     - name: Gun_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: -4
@@ -448,7 +444,6 @@ ScriptedImporter:
       spriteId: d8916d6b85431ce4d91c2097896131a4
     - name: Gun_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 3
         y: -4
@@ -457,7 +452,6 @@ ScriptedImporter:
       spriteId: 7ca62cd82c5a1a84991141c08c2d1867
     - name: Gun_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 3
         y: -4
@@ -466,7 +460,6 @@ ScriptedImporter:
       spriteId: 77b4bdac77dbbba4bae32b7ea31ae1b6
     - name: Gun_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 3
         y: -4
@@ -475,7 +468,6 @@ ScriptedImporter:
       spriteId: 908f63d02b97a85458bd44bc07c21c37
     - name: Gun_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 3
         y: -4
@@ -484,7 +476,6 @@ ScriptedImporter:
       spriteId: 698bfebf883037340b2261c8325a8169
     - name: Gun_Frame_8
       frameIndex: 8
-      additiveSortOrder: 0
       cellRect:
         x: 3
         y: -4
@@ -493,7 +484,6 @@ ScriptedImporter:
       spriteId: 3a7ef29f6b84b1d4da14f3aff0de2fc0
     - name: Gun_Frame_9
       frameIndex: 9
-      additiveSortOrder: 0
       cellRect:
         x: 3
         y: -4
@@ -502,7 +492,6 @@ ScriptedImporter:
       spriteId: 4eeef704ff393644f8f5c4a590e68a6f
     - name: Gun_Frame_10
       frameIndex: 10
-      additiveSortOrder: 0
       cellRect:
         x: 3
         y: -4
@@ -511,7 +500,6 @@ ScriptedImporter:
       spriteId: 03b59d9f8f5a18c498d992982d1c9dea
     - name: Gun_Frame_11
       frameIndex: 11
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: -4
@@ -520,7 +508,6 @@ ScriptedImporter:
       spriteId: 9453c75c4b624814ebd72ed8a750b865
     - name: Gun_Frame_12
       frameIndex: 12
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: -4
@@ -529,7 +516,6 @@ ScriptedImporter:
       spriteId: b3a76e4e1a762794da2a72b3ccc67bae
     - name: Gun_Frame_13
       frameIndex: 13
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: -4
