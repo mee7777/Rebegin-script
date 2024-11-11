@@ -1,33 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class DoorController : MonoBehaviour
+public class Door : MonoBehaviour
 {
-    public GameObject textmanager;
-    private TextManager text;
+    public int health = 10;
 
-    private void Start()
+    public void TakeDamage(int damage)
     {
-        text = textmanager.GetComponent<TextManager>();
+        health -= damage;
+        if (health <= 0)
+        {
+            Destroy(gameObject); // 문이 파괴되면 제거
+        }
     }
-    public void OpenDoor()
-    {
-        // 문이 열리는 동작 (애니메이션 또는 이동)
-        Debug.Log("문이 열립니다!");
-        // 여기에 문을 열리는 코드 추가 (예: Transform 이동 또는 애니메이션 실행)
-        gameObject.SetActive(false);  // 예시로 문을 비활성화하여 열리는 효과
-        text.isOpen = true;
-        text.OpenDoor();
-        Invoke("closeDoor", 2f);
-
-    }
-
-    void closeDoor()
-    {
-        text.isOpen = false;
-        text.OpenDoor();
-    }
-
-
 }
+

@@ -5,6 +5,9 @@ using UnityEngine.UI;
 
 public class Aim : MonoBehaviour
 {
+    public Animator targetAnimator;
+    public SpriteRenderer Player;
+
     public Transform playerTransform;
     public VariableJoystick js;
     public float movespeed = 5f;
@@ -18,6 +21,8 @@ public class Aim : MonoBehaviour
 
     private void Start()
     {
+        GameObject playerObject = GameObject.Find("Player");
+        Player = playerObject.GetComponent<SpriteRenderer>();
         rendere = GetComponent<SpriteRenderer>();
         rendere.color = new Color(1, 1, 1, 0);
     }
@@ -44,11 +49,13 @@ public class Aim : MonoBehaviour
             transform.position = playerTransform.position;
             SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
             spriteRenderer.enabled = false;
+            Boo();
         }
         else
         {
             SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
             spriteRenderer.enabled = true;
+
         }
 
         if (monster == null)
@@ -84,6 +91,7 @@ public class Aim : MonoBehaviour
             Monster monster = other.GetComponent<Monster>();
             if (monster != null)
             {
+                targetAnimator.SetBool("Gun", true);
                 monster.TakeDamage(1);
                 cameraShake.StartShake();
             }
@@ -101,6 +109,23 @@ public class Aim : MonoBehaviour
 
         // 제한된 뷰포트 좌표를 다시 월드 좌표로 변환
         transform.position = Camera.main.ViewportToWorldPoint(viewportPos);
+    }
+
+
+    void Boo()
+    {
+        targetAnimator.SetBool("Gun", false);
+        
+    }
+
+    public void Button()
+    {
+        js.gameObject.SetActive(true);
+    }
+
+    public void ButtonDown()
+    {
+        js.gameObject.SetActive(false);
     }
 }
 

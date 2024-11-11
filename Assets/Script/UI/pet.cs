@@ -27,6 +27,17 @@ public class pet : MonoBehaviour
             // 감속 후 부드럽게 멈추는 처리
             SmoothStop();
         }
+
+        if (player.position.x < transform.position.x)
+        {
+            // 플레이어가 오브젝트의 왼쪽에 있을 때
+            transform.localScale = new Vector3(1f, 1f, 1f); // 오브젝트를 왼쪽으로 반전
+        }
+        else
+        {
+            // 플레이어가 오브젝트의 오른쪽에 있을 때
+            transform.localScale = new Vector3(-1f, 1f, 1f); // 오브젝트를 오른쪽으로 설정
+        }
     }
 
     void FollowPlayer()

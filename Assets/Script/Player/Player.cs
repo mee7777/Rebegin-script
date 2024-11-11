@@ -6,9 +6,11 @@ using UnityEngine.EventSystems;
 
 public class Player : MonoBehaviour
 {
+    public WeaponSword Swords;
     [SerializeField] private Rigidbody2D rigid;
     public TextManager textmanager;
 
+    private int SwordDamage = 2;
     public Animator animator;
     public Transform attackPoint; // 공격 위치
     public float attackRange = 0.5f; // 공격 범위
@@ -41,6 +43,7 @@ public class Player : MonoBehaviour
 
     void Start()
     {
+        animator = GetComponent<Animator>();
         rigid = GetComponent<Rigidbody2D>();
         rb = GetComponent<Rigidbody2D>();
 
@@ -104,19 +107,10 @@ public class Player : MonoBehaviour
         Jump();
     }
 
-    public void Attack()
+    void Attack()
     {
-        Debug.Log("공격");
-        // 공격 범위 내의 적을 탐지
-        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
-        
-        // 적에게 피해를 입히는 로직 (예: 적의 Health 컴포넌트에 접근하여 피해를 입힘)
-        foreach (Collider2D enemy in hitEnemies)
-        {
-            Debug.Log("공격 범위");
-            // 적의 Health 스크립트에 접근하여 피해를 입히는 코드
-            // 예: enemy.GetComponent<EnemyHealth>().TakeDamage(attackDamage);
-        }
+        Swords.Slash();
+        animator.SetTrigger("attack");
     }
 
     public void OnAttackButtonClick()

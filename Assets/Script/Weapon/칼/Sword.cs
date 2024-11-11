@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Gun : MonoBehaviour
+public class Sword : MonoBehaviour
 {
     public Transform player; // 플레이어의 Transform
 
@@ -30,10 +30,9 @@ public class Gun : MonoBehaviour
             // ChangeWeapon 스크립트의 equip1을 true로 설정
             if (changeWeapon != null)
             {
-                changeWeapon.equip1 = true;
-                gameObject.SetActive(false);               
+                changeWeapon.equip2 = true;
+                gameObject.SetActive(false);
             }
         }
     }
 }
-

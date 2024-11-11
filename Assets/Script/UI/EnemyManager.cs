@@ -24,6 +24,5 @@ public class EnemyManager : MonoBehaviour
     {
         // 문이 열리는 동작 (예: 애니메이션 또는 Transform 이동)
         Debug.Log("문이 열립니다!");
-        door.GetComponent<DoorController>().OpenDoor();  // 문 여는 동작 실행
     }
 }
