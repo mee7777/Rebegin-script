@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Reflection;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
@@ -18,11 +19,13 @@ public class Monster : MonoBehaviour
     public float size = 1;
     public Animator animator;
 
+
     private Vector2 startingPosition;
     private bool movingRight = true;
     private Transform player;
     private Rigidbody2D rb;
     private float curTime;
+    private GameManager Mission;
 
     void Start()
     {
@@ -30,7 +33,7 @@ public class Monster : MonoBehaviour
         startingPosition = transform.position;
         player = GameObject.FindGameObjectWithTag("Player").transform;
         curTime = AttackCoolTime;
-
+        Mission = FindObjectOfType<GameManager>();
     }
 
     void Update()
@@ -159,6 +162,7 @@ public class Monster : MonoBehaviour
 
     public void Die()
     {
+        Mission.MonsterKilled();
         Destroy(gameObject);  // 적 오브젝트를 파괴
         // 적이 죽을 때 EnemyManager의 deathCount를 증가시킵니다.
         enemyManager.IncreaseDeathCount();

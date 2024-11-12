@@ -18,7 +18,6 @@ public class Player : MonoBehaviour
     public int attackDamage = 10; // 공격력    
     public float jumpForce = 10f;
     public Button jumpButton;
-    public Button attackButton;
     public VariableJoystick js;
     public float speed; // 조이스틱에 의해 움직일 오브젝트의 속도.
     SpriteRenderer rend;
@@ -33,6 +32,7 @@ public class Player : MonoBehaviour
     GameObject scanObject;
     GameObject detectedObject;
     public GameObject textObject;
+    private GameManager Mission;
 
     public bool isJump = false;
     public int maxJumpCount = 2;
@@ -46,8 +46,7 @@ public class Player : MonoBehaviour
         animator = GetComponent<Animator>();
         rigid = GetComponent<Rigidbody2D>();
         rb = GetComponent<Rigidbody2D>();
-
-        attackButton.onClick.AddListener(OnAttackButtonClick);
+        Mission = FindObjectOfType<GameManager>();
 
         currentHealth = maxHealth;
     }
@@ -180,6 +179,7 @@ public class Player : MonoBehaviour
         {
             // 플레이어가 죽었을 때의 처리
             Debug.Log("Player Died");
+            gameObject.SetActive(false);
         }
     }
 
