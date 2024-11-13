@@ -10,6 +10,11 @@ public class Player : MonoBehaviour
     [SerializeField] private Rigidbody2D rigid;
     public TextManager textmanager;
 
+    public Button yourButton; // 버튼을 연결
+    public Sprite newImage;   // 새 이미지
+    public Sprite defaultImage; // 기본 이미지
+
+    public SpriteFader spriteFader;
     private int SwordDamage = 2;
     public Animator animator;
     public Transform attackPoint; // 공격 위치
@@ -22,7 +27,7 @@ public class Player : MonoBehaviour
     public float speed; // 조이스틱에 의해 움직일 오브젝트의 속도.
     SpriteRenderer rend;
     public int maxHealth = 5;
-    private int currentHealth;
+    public int currentHealth;
     // 여기 추가했습니다
     int direction;
     float detect_range = 2f;
@@ -62,8 +67,21 @@ public class Player : MonoBehaviour
                 Debug.Log("텍스트출력취소");
                 textObject.SetActive(false);
                 textmanager.isAction = true;
+                Image buttonImage = yourButton.GetComponent<Image>();
+                buttonImage.sprite = defaultImage;
             }
-        }            
+        }
+        else
+        {
+            if (yourButton != null)
+            {
+                Image buttonImage = yourButton.GetComponent<Image>();
+                if (buttonImage != null)
+                {
+                    buttonImage.sprite = newImage;
+                }
+            }
+        }
     }
 
     public void Jump()
@@ -177,9 +195,11 @@ public class Player : MonoBehaviour
         if (currentHealth < 0) currentHealth = 0;
         if (currentHealth == 0)
         {
+            spriteFader.StartFadeIn();
             // 플레이어가 죽었을 때의 처리
             Debug.Log("Player Died");
             gameObject.SetActive(false);
+            
         }
     }
 

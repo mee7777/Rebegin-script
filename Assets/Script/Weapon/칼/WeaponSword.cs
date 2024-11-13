@@ -5,6 +5,9 @@ using UnityEngine.UI;
 
 public class WeaponSword : MonoBehaviour
 {
+    public AudioSource audioSource;
+    public AudioClip fireSound;
+
     public Animator targetAnimator;
     public SpriteRenderer Player;
 
@@ -41,6 +44,7 @@ public class WeaponSword : MonoBehaviour
             Monster monster = other.GetComponent<Monster>();
             if (monster != null && On == true)
             {
+                audioSource.PlayOneShot(fireSound);
                 targetAnimator.SetBool("Sword", true);
                 monster.TakeDamage(2);
                 cameraShake.StartShake();

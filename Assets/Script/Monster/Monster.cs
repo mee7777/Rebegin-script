@@ -19,7 +19,7 @@ public class Monster : MonoBehaviour
     public float size = 1;
     public Animator animator;
 
-
+    private bool canattack = true;
     private Vector2 startingPosition;
     private bool movingRight = true;
     private Transform player;
@@ -60,11 +60,11 @@ public class Monster : MonoBehaviour
 
     void FaceTarget()
     {
-        if (player.position.x - transform.position.x < 0) // 타겟이 왼쪽에 있을 때
+        if (player.position.x - transform.position.x < 0 && canattack) // 타겟이 왼쪽에 있을 때
         {
             transform.localScale = new Vector3(-size, size, 0);
         }
-        else // 타겟이 오른쪽에 있을 때
+        else if (player.position.x - transform.position.x > 0 && canattack)
         {
             transform.localScale = new Vector3(size, size, 0);
         }
@@ -88,12 +88,12 @@ public class Monster : MonoBehaviour
     {
         float patrolTargetX = movingRight ? startingPosition.x + patrolDistance : startingPosition.x - patrolDistance;
 
-        if (movingRight && transform.position.x >= patrolTargetX)
+        if (movingRight && transform.position.x >= patrolTargetX && canattack)
         {
             movingRight = false;
             ChangeDirection(); // 방향 변경
         }
-        else if (!movingRight && transform.position.x <= patrolTargetX)
+        else if (!movingRight && transform.position.x <= patrolTargetX && canattack)
         {
             movingRight = true;
             ChangeDirection(); // 방향 변경
@@ -129,7 +129,7 @@ public class Monster : MonoBehaviour
         if (col.CompareTag("Player"))
         {                
             Player playerHealth = col.GetComponent<Player>();
-            if (player != null && curTime <= 0)
+            if (player != null && curTime <= 0 && canattack)
             {
                 chaseSpeed = 0;
                 animator.SetBool("Attack", true);
@@ -171,6 +171,7 @@ public class Monster : MonoBehaviour
     public void stop()
     {
         chaseSpeed = 0f;
+        canattack = false;
     }
 
     public void stopAttack()

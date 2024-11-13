@@ -5,6 +5,9 @@ using UnityEngine.UI;
 
 public class Glove : MonoBehaviour
 {
+    public AudioSource audioSource;
+    public AudioClip fireSound;
+
     public Animator targetAnimator;
     public SpriteRenderer Player;
 
@@ -42,12 +45,13 @@ public class Glove : MonoBehaviour
             Monster monster = other.GetComponent<Monster>();
             if (monster != null && Onn == true)
             {
+                audioSource.PlayOneShot(fireSound);
                 targetAnimator.SetBool("Glove", true);
                 monster.TakeDamage(2);
                 cameraShake.StartShake();
                 Onn = false;
                 // 1초 뒤에 Stop()을 실행
-                StartCoroutine(StopAfterDelay(1f));
+                StartCoroutine(StopAfterDelay(0.7f));
             }
         }
         else if (other.CompareTag("Door"))
@@ -55,12 +59,13 @@ public class Glove : MonoBehaviour
             Door door = other.GetComponent<Door>();
             if (door != null && Onn == true)
             {
+                audioSource.PlayOneShot(fireSound);
                 targetAnimator.SetBool("Glove", true);
                 door.TakeDamage(2); // Door에도 Damage 메서드를 추가해야 합니다.
                 cameraShake.StartShake();
                 Onn = false;
                 // 1초 뒤에 Stop()을 실행
-                StartCoroutine(StopAfterDelay(1f));
+                StartCoroutine(StopAfterDelay(0.7f));
             }
         }
     }

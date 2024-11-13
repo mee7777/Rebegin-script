@@ -18,20 +18,24 @@ public class TextManager : MonoBehaviour
 
     public void Action(GameObject scanObj)
     {
+        scanObject = scanObj;
+        ObjData objData = scanObject.GetComponent<ObjData>();
         Debug.Log("텍스트 출력");
-        if (isAction)
+        if (objData != null)
         {
-            isAction = false;
-            talkPanel.SetActive(true);
-            scanObject = scanObj;
-            ObjData objData = scanObject.GetComponent<ObjData>();
-            Talk(objData.id, objData.isNpc);
-        }
-        else
-        {
-            isAction = true;
-            talkPanel.SetActive(false);
-        }
+            if (objData.id == 4)
+            {
+                talkPaneel();
+            }
+
+            else if (isAction && objData != null)
+            {
+                talkPanel.SetActive(true);                
+                Talk(objData.id, objData.isNpc);
+                objData.id++;
+            }
+            
+        }        
     }
 
     void Talk(int id, bool isNpc)
@@ -51,6 +55,11 @@ public class TextManager : MonoBehaviour
         StartCoroutine(TextPrint(delay));  // 타이핑 효과 실행
     }
 
+    private void talkPaneel()
+    {
+        isAction = true;
+        talkPanel.SetActive(false);
+    }
     IEnumerator TextPrint(float d)
     {
         int count = 0;

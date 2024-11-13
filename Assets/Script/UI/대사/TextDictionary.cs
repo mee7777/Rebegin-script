@@ -16,8 +16,9 @@ public class TextDictionary : MonoBehaviour
     // Update is called once per frame
     void GenerateData()
     {
-        talkData.Add(100, new string[] { "테스트용입니다 1번" });
-        talkData.Add(101, new string[] { "테스트용입니다 2번" });
+        talkData.Add(1, new string[] { "... 그 괴물같은 녀석?" });
+        talkData.Add(2, new string[] { "알고야 말고! 어찌나 끔찍하던지..." });
+        talkData.Add(3, new string[] { "꼭 조심해야 하네" });
         talkData.Add(10000, new string[] { "어딘가 막힌길이 뚫린것 같다" });
     }
 
