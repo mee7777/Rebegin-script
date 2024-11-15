@@ -44,11 +44,11 @@ public class WeaponSword : MonoBehaviour
             Monster monster = other.GetComponent<Monster>();
             if (monster != null && On == true)
             {
+                On = false;
                 audioSource.PlayOneShot(fireSound);
                 targetAnimator.SetBool("Sword", true);
                 monster.TakeDamage(2);
-                cameraShake.StartShake();
-                On = false;
+                cameraShake.StartShake();                
                 // 1초 뒤에 Stop()을 실행
                 StartCoroutine(StopAfterDelay(1f));
             }
@@ -76,6 +76,7 @@ public class WeaponSword : MonoBehaviour
 
     void Stop()
     {
+        Debug.Log("a");
         targetAnimator.SetBool("Sword", false);
     }
 }

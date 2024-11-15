@@ -19,6 +19,8 @@ public class Aim : MonoBehaviour
     public CamShake cameraShake;
     public SpriteRenderer rendere;
 
+    private bool shooting = false;
+
     public string monsterTag = "Monster";
     private GameObject monster;
 
@@ -39,6 +41,12 @@ public class Aim : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (shooting == true)
+        {
+            StartCoroutine(StopAfterDelay(0.4f));
+            shooting = false;
+        }
+
         // 스틱이 향해있는 방향을 저장해준다.
         Vector3 dir = new Vector3(js.Horizontal, js.Vertical, 0);
 
@@ -52,7 +60,8 @@ public class Aim : MonoBehaviour
             transform.position = playerTransform.position;
             SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
             spriteRenderer.enabled = false;
-            Boo();
+            
+            
         }
         else
         {
@@ -82,6 +91,15 @@ public class Aim : MonoBehaviour
 
         RestrictPositionToCamera();
     }
+    private IEnumerator StopAfterDelay(float delay)
+    {
+        // 지정된 시간 동안 대기
+        yield return new WaitForSeconds(delay);
+
+        // 대기 후 Stop() 호출
+        Boo();
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
 
@@ -98,6 +116,7 @@ public class Aim : MonoBehaviour
                 targetAnimator.SetBool("Gun", true);
                 monster.TakeDamage(1);
                 cameraShake.StartShake();
+                shooting = true;
             }
         }
     }

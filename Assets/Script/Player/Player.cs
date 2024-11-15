@@ -68,7 +68,7 @@ public class Player : MonoBehaviour
                 textObject.SetActive(false);
                 textmanager.isAction = true;
                 Image buttonImage = yourButton.GetComponent<Image>();
-                buttonImage.sprite = defaultImage;
+                buttonImage.sprite = newImage;
             }
         }
         else
@@ -78,7 +78,7 @@ public class Player : MonoBehaviour
                 Image buttonImage = yourButton.GetComponent<Image>();
                 if (buttonImage != null)
                 {
-                    buttonImage.sprite = newImage;
+                    buttonImage.sprite = defaultImage;
                 }
             }
         }

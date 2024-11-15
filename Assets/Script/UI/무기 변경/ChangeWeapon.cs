@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class ChangeWeapon : MonoBehaviour
 {
+    public Animator targetAnimator;
+
     public GameObject TestWeapon;  // Gun 스크립트를 가지고 있는 무기 오브젝트
     public Aim aim;
     public WeaponSword Sword;
@@ -93,6 +95,9 @@ public class ChangeWeapon : MonoBehaviour
     {
         if (equip1 == true)
         {
+            targetAnimator.SetBool("EquipGun", true);
+            targetAnimator.SetBool("EquipSword", false);
+            targetAnimator.SetBool("EquipGlove", false);
             GloveWeapon.SetActive(false);
             SwordWeapon.SetActive(false);
             playerSpriteRenderer.sprite = newSprite1;  // 플레이어의 스프라이트를 새로운 것으로 변경
@@ -105,6 +110,9 @@ public class ChangeWeapon : MonoBehaviour
     {
         if (equip2 == true)
         {
+            targetAnimator.SetBool("EquipGun", false);
+            targetAnimator.SetBool("EquipSword", true);
+            targetAnimator.SetBool("EquipGlove", false);
             GloveWeapon.SetActive(false);
             SwordWeapon.SetActive(true);
             aim.ButtonDown();
@@ -116,6 +124,9 @@ public class ChangeWeapon : MonoBehaviour
     {
         if (equip3 == true)
         {
+            targetAnimator.SetBool("EquipGun", false);
+            targetAnimator.SetBool("EquipSword", false);
+            targetAnimator.SetBool("EquipGlove", true);
             GloveWeapon.SetActive(true);
             SwordWeapon.SetActive(false);
             aim.ButtonDown();
@@ -126,6 +137,9 @@ public class ChangeWeapon : MonoBehaviour
     {
         if (equip4 == true)
         {
+            targetAnimator.SetBool("EquipGun", false);
+            targetAnimator.SetBool("EquipSword", false);
+            targetAnimator.SetBool("EquipGlove", false);
             GloveWeapon.SetActive(false);
             SwordWeapon.SetActive(false);
             aim.ButtonDown();
