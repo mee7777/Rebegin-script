@@ -14,7 +14,6 @@ public class Boss : MonoBehaviour
     public GameObject warningEffect; // 전조 효과
     public GameObject laserBeamPrefab; // 레이저 빔 프리팹
 
-    public laserBeam asdf;
     public enum BossPhase { Phase1, Phase2 }
     private BossPhase currentPhase = BossPhase.Phase1;
 
@@ -110,6 +109,7 @@ public class Boss : MonoBehaviour
     private IEnumerator Phase1Pattern1()
     {
         Debug.Log("Phase 1 Pattern 1 시작!");
+        
         float followDuration = 3f;
         Vector3 targetPosition = player.transform.position;
 
@@ -127,13 +127,15 @@ public class Boss : MonoBehaviour
 
         // 레이저 발사
         Instantiate(laserBeamPrefab, leftHand.transform.position, Quaternion.identity);
-        
 
         Debug.Log("레이저 발사!");
         isAttacking = false;
         
         yield return new WaitForSeconds(3f);
-        leftHand.transform.position = body.transform.position;
+        leftHand.transform.position = new Vector3(body.transform.position.x - 4.5f, body.transform.position.y, 0);
+
+        yield return new WaitForSeconds(5f);
+
         StartPattern();
     }
 
@@ -143,13 +145,16 @@ public class Boss : MonoBehaviour
         Debug.Log("Phase 1 Pattern 2 시작!");
         for (int i = 0; i < 3; i++)
         {
-            Vector3 randomPosition = new Vector3(Random.Range(-5f, 5f), player.transform.position.y, 0);
+            Vector3 randomPosition = new Vector3(Random.Range(-5f, 5f), player.transform.position.y + 5f, 0);
             Hand.transform.position = randomPosition;
             yield return new WaitForSeconds(5f); // 들어올리기
+            Hand.transform.position = new Vector3(Hand.transform.position.x, Hand.transform.position.y - 5f, 0);
             Debug.Log("손 내려찍음!");
             yield return new WaitForSeconds(1f);
         }
         isAttacking = false;
+        Hand.transform.position = body.transform.position;
+        yield return new WaitForSeconds(5f);
         StartPattern();
     }
 
@@ -175,6 +180,8 @@ public class Boss : MonoBehaviour
             yield return null;
         }
         isAttacking = false;
+        leftHand.transform.position = new Vector3(body.transform.position.x - 4.5f, body.transform.position.y, 0);
+        yield return new WaitForSeconds(5f);
         StartPattern();
     }
 
@@ -190,6 +197,7 @@ public class Boss : MonoBehaviour
         Instantiate(laserBeamPrefab, body.transform.position, Quaternion.identity);
         Debug.Log("레이저 발사!");
         isAttacking = false;
+        yield return new WaitForSeconds(5f);
         StartPattern();
     }
 
@@ -206,6 +214,7 @@ public class Boss : MonoBehaviour
             Instantiate(warningEffect, bulletPosition, Quaternion.identity);
         }
         isAttacking = false;
+        yield return new WaitForSeconds(5f);
         StartPattern();
     }
 
@@ -222,6 +231,7 @@ public class Boss : MonoBehaviour
             Instantiate(laserBeamPrefab, randomPosition, Quaternion.identity);
         }
         isAttacking = false;
+        yield return new WaitForSeconds(5f);
         StartPattern();
     }
 }

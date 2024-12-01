@@ -1,11 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class laserBeam : MonoBehaviour
 {
-    public void Destory1()
+    private void Update()
     {
-        
+        sadsa();
+    }
+
+    private IEnumerator sadsa()
+    {
+        yield return new WaitForSeconds(3f);
+        Destroy(this.gameObject);
     }
 }
